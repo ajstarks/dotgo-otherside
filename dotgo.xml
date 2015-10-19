@@ -14,14 +14,15 @@
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<text xp="50" yp="90" sp="4" align="center">Go is great in the back end</text>
+		<text xp="50" yp="15" sp="5" align="center">Go is great in the back end</text>
+		<rect xp="50" yp="15" wp="100" hp="20" color="black" opacity="20"/>
 		<image name="ds.jpg" width="1920" height="1280" xp="50" yp="50"/>
 	</slide>
 
 	<slide>
 	<image name="july-sky.jpg" width="4224" height="2376" scale="45" xp="50" yp="50"/>
-	<rect xp="50" yp="10" wp="100" hp="20" color="black" opacity="15"/>
-	<text xp="50" yp="10" sp="4" align="center" color="white">But sometimes it's about the picture</text>
+	<rect xp="50" yp="82" wp="100" hp="20" color="black" opacity="15"/>
+	<text xp="50" yp="80" sp="5" align="center" color="white">But sometimes it's about the picture</text>
 	</slide>
 
 	<slide bg="gray" fg="white">
@@ -95,7 +96,7 @@
 	</slide>
 	
 	<slide>
-	<image xp="50" yp="50" width="500" height="500" name="android.png"/>
+	<image xp="50" yp="50" width="877" height="877" name="android.png"/>
 	</slide>
 	
 	<slide>
@@ -107,7 +108,7 @@
 		<text xp="75" yp="55" sp="3" align="center">Line</text>
 		<text xp="63" yp="37" sp="3" align="center">Arc</text>
 		<text xp="50" yp="65" sp="3">fill:rgb(164,198,57)</text>
-		<image xp="50" yp="50" width="500" height="500" name="android.png"/>
+		<image xp="50" yp="50" width="877" height="877" name="android.png"/>
 	</slide>
 
 	<slide>
@@ -140,9 +141,9 @@
 	
 	
 	<slide>
-		<text xp="5" yp="85" sp="3">http://ajstarks.org:1958/pacman/?angle=20</text><image xp="85" yp="85" width="200" height="200" name="pacman20.png"/>
-		<text xp="5" yp="50" sp="3">http://ajstarks.org:1958/pacman/?angle=40</text><image xp="85" yp="50" width="200" height="200" name="pacman40.png"/>	
-		<text xp="5" yp="15" sp="3">http://ajstarks.org:1958/pacman/?angle=70</text><image xp="85" yp="15" width="200" height="200" name="pacman70.png"/>
+		<text xp="5" yp="85" sp="3">http://ajstarks.org:1958/pacman/?angle=20</text><image xp="85" yp="85" width="256" height="256" name="pacman20.png"/>
+		<text xp="5" yp="50" sp="3">http://ajstarks.org:1958/pacman/?angle=40</text><image xp="85" yp="50" width="256" height="256" name="pacman40.png"/>	
+		<text xp="5" yp="15" sp="3">http://ajstarks.org:1958/pacman/?angle=70</text><image xp="85" yp="15" width="256" height="256" name="pacman70.png"/>
 	</slide>
 	
 	
@@ -210,7 +211,7 @@
 	</slide>
 	
 	<slide bg="black">
-	<image xp="50" yp="50" width="1024" height="719" name="ar.jpg"/>
+	<image xp="50" yp="50" width="1425" height="1000" name="ar.jpg"/>
 	</slide>
 	
 	<slide>
