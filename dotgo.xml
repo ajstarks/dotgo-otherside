@@ -19,7 +19,7 @@
 	</slide>
 
 	<slide>
-	<image name="july-sky.jpg" width="4224" height="2376" scale="33" xp="50" yp="50"/>
+	<image name="july-sky.jpg" width="4224" height="2376" scale="45" xp="50" yp="50"/>
 	<rect xp="50" yp="10" wp="100" hp="20" color="black" opacity="15"/>
 	<text xp="50" yp="10" sp="4" align="center" color="white">But sometimes it's about the picture</text>
 	</slide>
@@ -122,20 +122,20 @@
 	
 	<slide>
 		<text xp="50" yp="95" sp="3" link="http://ajstarks.org:1958/" align="c">http://ajstarks.org:1958/{thing}/</text>
-		<image xp="20" yp="80" width="128" height="128" color="gray" name="clock.png" caption="clock"/>
-		<image xp="40" yp="80" width="128" height="128" color="gray" name="funnel.png" caption="funnel"/>
-		<image xp="60" yp="80" width="128" height="128" color="gray" name="rotext.png" caption="rotext"/>
-		<image xp="80" yp="80" width="128" height="128" color="gray" name="flower.png" caption="flower"/>
+		<image xp="20" yp="80" width="256" height="256" color="gray" name="clock.png" sp="1.6" caption="clock"/>
+		<image xp="40" yp="80" width="256" height="256" color="gray" name="funnel.png" sp="1.6"  caption="funnel"/>
+		<image xp="60" yp="80" width="256" height="256" color="gray" name="rotext.png" sp="1.6"  caption="rotext"/>
+		<image xp="80" yp="80" width="256" height="256" color="gray" name="flower.png" sp="1.6"  caption="flower"/>
 		
-		<image xp="20" yp="50" width="128" height="128" color="gray" name="rshape.png" caption="rshape"/>
-		<image xp="40" yp="50" width="128" height="128" color="gray" name="cube.png" caption="cube"/>
-		<image xp="60" yp="50" width="128" height="128" color="gray" name="mondrian.png" caption="mondrian"/>
-		<image xp="80" yp="50" width="128" height="128" color="gray" name="lewitt.png" caption="lewitt"/>
+		<image xp="20" yp="50" width="256" height="256" color="gray" name="rshape.png" sp="1.6"  caption="rshape"/>
+		<image xp="40" yp="50" width="256" height="256" color="gray" name="cube.png" sp="1.6"  caption="cube"/>
+		<image xp="60" yp="50" width="256" height="256" color="gray" name="mondrian.png" sp="1.6"  caption="mondrian"/>
+		<image xp="80" yp="50" width="256" height="256" color="gray" name="lewitt.png" sp="1.6"  caption="lewitt"/>
 		
-		<image xp="20" yp="20" width="128" height="128" color="gray" name="face.png" caption="face"/>
-		<image xp="40" yp="20" width="128" height="128" color="gray" name="pacman.png" caption="pacman"/>
-		<image xp="60" yp="20" width="128" height="128" color="gray" name="tux.png" caption="tux"/>
-		<image xp="80" yp="20" width="128" height="128" color="gray" name="concentric.png" caption="concentric"/>
+		<image xp="20" yp="20" width="256" height="256" color="gray" name="face.png" sp="1.6"  caption="face"/>
+		<image xp="40" yp="20" width="256" height="256" color="gray" name="pacman.png" sp="1.6"  caption="pacman"/>
+		<image xp="60" yp="20" width="256" height="256" color="gray" name="tux.png" sp="1.6"  caption="tux"/>
+		<image xp="80" yp="20" width="256" height="256" color="gray" name="concentric.png" sp="1.6"  caption="concentric"/>
 	</slide>
 	
 	
@@ -437,26 +437,27 @@ done</text>
 		<text  xp="25" yp="7" sp="2.5" color="gray">(x, y VGfloat, s string, font string, size int)</text>
 
 	
-		<ellipse xp="5" yp="86" wp="2.5" hr="100" color="gray"/>
+		<ellipse xp="5" yp="86" wp="2.5" hr="100" color="maroon"/>
 		<ellipse xp="5" yp="80" wp="2.5" hr="50" color="maroon"/>
 		<rect xp="5" yp="75" wp="2.5" hr="50" color="maroon"/>
 		<rect xp="5" yp="67" wp="2.5" hr="50" color="maroon"/>
 		<line xp1="2.5" yp1="62" xp2="7.5" yp2="62" color="maroon"/>
-		<line xp1="2.5" yp1="55" xp2="5" yp2="57.5"/><line xp1="5" yp1="57.5" xp2="7.5" yp2="55"/>
+		<line xp1="2.5" yp1="55" xp2="5" yp2="57.5" color="maroon"/>
+		<line xp1="5" yp1="57.5" xp2="7.5" yp2="55" color="maroon"/>
 		<polygon xc="2.5 5 7.5" yc="50 52 50" color="maroon"/>
-		<arc xp="5" yp="42" wp="5" hp="5" a1="0" a2="180"/>
-		<curve xp1="2.5" yp1="37" xp2="3" yp2="45" xp3="7.5" yp3="37"/>
+		<arc xp="5" yp="42" wp="5" hp="5" a1="0" a2="180" color="maroon"/>
+		<curve xp1="2.5" yp1="37" xp2="3" yp2="45" xp3="7.5" yp3="37" color="maroon"/>
 		
-		<curve xp1="2.5"  yp1="32"   xp2="3"  yp2="42"  xp3="5"   yp3="32"/>
-		<curve xp1="5"    yp1="32"   xp2="6"  yp2="30"  xp3="7.5" yp3="35"/>
+		<curve xp1="2.5"  yp1="32"   xp2="3"  yp2="42"  xp3="5"   yp3="32" color="maroon"/>
+		<curve xp1="5"    yp1="32"   xp2="6"  yp2="30"  xp3="7.5" yp3="35" color="maroon"/>
 
 		<image xp="5" yp="27" width="110" height="110" scale="80" name="starx.jpg"/>
 		<text xp="5" yp="19" sp="1">ABC</text>
 		<text xp="5" yp="13" sp="1" align="center">ABC</text>
 		<text xp="5" yp="7" sp="1" align="end">ABC</text>
-		<ellipse xp="5" yp="19" wp=".5" hr="100" color="red" />
-		<ellipse xp="5" yp="13" wp=".5" hr="100" color="red" />
-		<ellipse xp="5" yp="7" wp=".5" hr="100" color="red" />
+		<ellipse xp="5" yp="19" wp=".5" hr="100" color="maroon" />
+		<ellipse xp="5" yp="13" wp=".5" hr="100" color="maroon" />
+		<ellipse xp="5" yp="7" wp=".5" hr="100" color="maroon" />
 	</slide>
 	
 	 <slide bg="white" fg="rgb(50,50,50)">
@@ -946,6 +947,11 @@ and the voice of the turtle is heard in our land.
 		<text xp="50" yp="50" sp="8" align="center">What is it about Go?</text>
 	</slide>
 	
+	
+	<slide bg="rgb(0,0,127)" fg="white">
+		<text xp="10" yp="70" sp="4" type="block" wp="60" ink="http://csapp.cs.cmu.edu/3e/docs/chistory.html">Thompson wanted to create a comfortable computing environment constructed according to his own design, using whatever means were available</text>
+		<text xp="10" yp="20" sp="3">The Development of the C Language, Dennis M. Ritchie</text>
+	</slide>
 	
 	<slide bg="rgb(0,0,127)" fg="white">
 		<text xp="10" yp="70" sp="4" type="block" wp="60" link="https://groups.google.com/d/msg/golang-nuts/19a3E6adUKw/cQajGAcqBgAJ">Go is not the product of a Whiggish development process.
