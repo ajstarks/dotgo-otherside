@@ -20,6 +20,7 @@
 
 	<slide>
 	<image name="july-sky.jpg" width="4224" height="2376" scale="33" xp="50" yp="50"/>
+	<rect xp="50" yp="10" wp="100" hp="20" color="black" opacity="15"/>
 	<text xp="50" yp="10" sp="4" align="center" color="white">But sometimes it's about the picture</text>
 	</slide>
 
