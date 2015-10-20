@@ -841,7 +841,7 @@ We were just trying to get something that worked for us.</text>
 		<text xp="10" yp="20" sp="3">Rob Pike</text>
 	</slide>
 	
-	<slide bg="rgb(127,127,127)" fg="white">
+	<slide bg="black" fg="white">
 		<text xp="50" yp="50" sp="7" align="center">Making Tools</text>
 	</slide>
 	
