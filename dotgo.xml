@@ -21,8 +21,8 @@
 
 	<slide>
 	<image name="july-sky.jpg" width="4224" height="2376" scale="45" xp="50" yp="50"/>
-	<rect xp="50" yp="82" wp="100" hp="20" color="black" opacity="15"/>
-	<text xp="50" yp="80" sp="5" align="center" color="white">But sometimes it's about the picture</text>
+	<rect xp="50" yp="15" wp="100" hp="20" color="black" opacity="15"/>
+	<text xp="50" yp="15" sp="5" align="center" color="white">But sometimes it's about the picture</text>
 	</slide>
 
 	<slide bg="gray" fg="white">
@@ -117,7 +117,8 @@
 	</slide>
 
 	<slide>
-		<image xp="75" yp="50" width="400" height="405" name="websvg-b.png"/>
+		<image xp="75" yp="70" width="1006" height="958" scale="50" name="websvg-red.png"/>
+		<image xp="75" yp="20" width="998" height="956" scale="50" name="websvg-green.png"/>
 		<text xp="5" yp="96" sp="1.1" font="mono" file="websvg.go"/>
 	</slide>
 	
@@ -164,18 +165,16 @@
 	<slide>
 		<text xp="2" yp="94" sp="2">[1] Imports</text>
 		<text xp="35" yp="94" sp="2">[2] Data Structures</text>
-		<text xp="68" yp="94" sp="2">[3] Globals and Flags</text>
+		<text xp="68" yp="94" sp="2">[3] Flags and Main</text>
 		<text xp="2" yp="46" sp="2">[5] Read the Input</text>
 		<text xp="35" yp="46" sp="2">[6] Parse and Load</text>
 		<text xp="68" yp="46" sp="2">[7] Draw</text>
-		<text xp="68" yp="75" sp="2">[4] Main</text>
 		<text xp="2" yp="90" sp="1" type="code" file="rpd-1.go" wp="30"/>
 		<text xp="35" yp="90" sp="1" type="code" file="rpd-2.go" wp="30"/>
-		<text xp="68" yp="90" sp="1" type="code" file="rpd-3.go" wp="30"/>
+		<text xp="68" yp="90" sp="1" type="code" file="rpd-34.go" wp="30"/>
 		<text xp="2" yp="42" sp="1" type="code" file="rpd-4.go" wp="30"/>
 		<text xp="35" yp="42" sp="1" type="code" file="rpd-5.go" wp="30"/>
 		<text xp="68" yp="42" sp="1" type="code" file="rpd-6.go" wp="30"/>
-		<text xp="68" yp="72"  sp="1" type="code" file="rpd-7.go" wp="30"/>
 	</slide>
 
 	<slide>
@@ -205,9 +204,9 @@
 	<slide><image xp="50" yp="50" width="1024" height="768" name="svgplot.png"/></slide>
 
 	<slide bg="black">
-		<image xp="20" yp="50"  width="300" height="541" name="lt01.png"/>
-		<image xp="50" yp="50"  width="300" height="541" name="lt02.png"/>
-		<image xp="80" yp="50"  width="300" height="541" name="lt03.png"/>
+		<image xp="20" yp="50"  width="1150" height="2072" scale="45" name="lt-04-jones-montiel.png"/>
+		<image xp="50" yp="50"  width="1150" height="2072" scale="45" name="lt-04-dkng-ddl.png"/>
+		<image xp="80" yp="50"  width="1150" height="2072" scale="45" name="lt-04-anderson-dkng.png"/>
 	</slide>
 	
 	<slide bg="black">
@@ -223,7 +222,7 @@
       &amp;per_page=50
       &amp;sort=interestingness-desc</text>
 	<text xp="5" yp="50" sp="2" color="rgb(127,0,0)" file="flickr-resp.xml"/>
-	<image xp="70" yp="75" width="483" height="300" name="sunset.png"/>
+	<image xp="70" yp="75" width="800" height="500" name="sunset.png"/>
 	</slide>
 	
 	<slide>
@@ -235,31 +234,32 @@ done</text>
 </slide>
 
 
-	<slide><image xp="50" yp="50" scale="80" width="900" height="846" name="201566.png"/></slide>
-	<slide><image xp="50" yp="50" scale="80" width="900" height="846" name="201933.png"/></slide>
-	<slide><image xp="50" yp="50" scale="80" width="900" height="846" name="201935.png"/></slide>
-	<slide><image xp="50" yp="50" scale="80" width="900" height="846" name="201939.png"/></slide>
-	<slide><image xp="50" yp="50" scale="80" width="900" height="846" name="202326.png"/></slide>
-	<slide><image xp="50" yp="50" scale="80" width="900" height="846" name="202681.png"/></slide>
-	<slide><image xp="50" yp="50" scale="80" width="900" height="846" name="202691.png"/></slide>
-	<slide><image xp="50" yp="50" scale="80" width="900" height="846" name="202695.png"/></slide>
-	<slide><image xp="50" yp="50" scale="80" width="900" height="846" name="203076.png"/></slide>
-	<slide><image xp="50" yp="50" scale="80" width="900" height="846" name="2544.png"/></slide>
+	<slide><image xp="50" yp="50"  width="900" height="846" name="201566.png"/></slide>
+	<slide><image xp="50" yp="50"  width="900" height="846" name="201933.png"/></slide>
+	<slide><image xp="50" yp="50"  width="900" height="846" name="201935.png"/></slide>
+	<slide><image xp="50" yp="50"  width="900" height="846" name="201939.png"/></slide>
+	<slide><image xp="50" yp="50"  width="900" height="846" name="202326.png"/></slide>
+	<slide><image xp="50" yp="50"  width="900" height="846" name="202681.png"/></slide>
+	<slide><image xp="50" yp="50"  width="900" height="846" name="202691.png"/></slide>
+	<slide><image xp="50" yp="50"  width="900" height="846" name="202695.png"/></slide>
+	<slide><image xp="50" yp="50"  width="900" height="846" name="203076.png"/></slide>
+	<slide><image xp="50" yp="50"  width="900" height="846" name="2544.png"/></slide>
+	<slide><image xp="50" yp="50"  width="900" height="846" name="2544.png"/></slide>
 	
 	<slide bg="lightgray">
-		<image xp="50" yp="87" scale="20" width="900" height="846" name="201566.png"/>
+		<image xp="50" yp="87" scale="30" width="900" height="846" name="201566.png"/>
 		
-		<image xp="40" yp="62" scale="20" width="900" height="846" name="201933.png"/>
-		<image xp="60" yp="62" scale="20" width="900" height="846" name="201935.png"/>
+		<image xp="40" yp="62" scale="30" width="900" height="846" name="201933.png"/>
+		<image xp="60" yp="62" scale="30" width="900" height="846" name="201935.png"/>
 
-		<image xp="30" yp="37" scale="20" width="900" height="846" name="201939.png"/>
-		<image xp="50" yp="37" scale="20" width="900" height="846" name="202326.png"/>
-		<image xp="70" yp="37" scale="20" width="900" height="846" name="202681.png"/>
+		<image xp="30" yp="37" scale="30" width="900" height="846" name="201939.png"/>
+		<image xp="50" yp="37" scale="30" width="900" height="846" name="202326.png"/>
+		<image xp="70" yp="37" scale="30" width="900" height="846" name="202681.png"/>
 		
-		<image xp="20" yp="12" scale="20" width="900" height="846" name="202691.png"/>
-		<image xp="40" yp="12" scale="20" width="900" height="846" name="202695.png"/>
-		<image xp="60" yp="12" scale="20" width="900" height="846" name="203076.png"/>
-		<image xp="80" yp="12" scale="20" width="900" height="846" name="2544.png"/>
+		<image xp="20" yp="12" scale="30" width="900" height="846" name="202691.png"/>
+		<image xp="40" yp="12" scale="30" width="900" height="846" name="202695.png"/>
+		<image xp="60" yp="12" scale="30" width="900" height="846" name="203076.png"/>
+		<image xp="80" yp="12" scale="30" width="900" height="846" name="2544.png"/>
 	</slide>
 	
 	<!-- <text xp="5" yp="5" sp="3">http://ajstarks.org:2012/benchviz/</text> -->
@@ -279,25 +279,25 @@ done</text>
 	</slide>
 		
 	<slide>
-		<image xp="10" yp="85" width="300" height="169" name="refcard.raw.png"/>
-		<image xp="50" yp="85" width="300" height="169" name="gradient.raw.png"/>
-		<image xp="80" yp="85" width="300" height="169" name="rotext.raw.png"/>
+		<image xp="10" yp="85" width="1920" height="1080" scale="25" name="refcard.raw.png"/>
+		<image xp="50" yp="85" width="1920" height="1080" scale="25" name="gradient.raw.png"/>
+		<image xp="80" yp="85" width="1920" height="1080" scale="25" name="rotext.raw.png"/>
 		
-		<image xp="10" yp="55" width="300" height="169" name="plot.raw.png"/>
-		<image xp="50" yp="55" width="300" height="169" name="planets.raw.png"/>
-		<image xp="80" yp="55" width="300" height="169" name="image.raw.png"/>
+		<image xp="10" yp="55" width="1920" height="1080" scale="25" name="plot.raw.png"/>
+		<image xp="50" yp="55" width="1920" height="1080" scale="25" name="planets.raw.png"/>
+		<image xp="80" yp="55" width="1920" height="1080" scale="25" name="image.raw.png"/>
 		
-		<image xp="10" yp="25" width="300" height="169" name="slide1.raw.png"/>
-		<image xp="50" yp="25" width="300" height="169" name="hellovg.raw.png"/>
-		<image xp="80" yp="25" width="300" height="169" name="slide4.raw.png"/>
+		<image xp="10" yp="25" width="1920" height="1080" scale="25" name="slide1.raw.png"/>
+		<image xp="50" yp="25" width="1920" height="1080" scale="25" name="hellovg.raw.png"/>
+		<image xp="80" yp="25" width="1920" height="1080" scale="25" name="slide4.raw.png"/>
 		
 		<text sp="5" xp="50" yp="5" align="center">openvg</text>
 
 	</slide>
 	
 	<slide>
-		<image xp="70" yp="75" width="600" height="338" name="hw.jpg"/>
-		<text xp="4" yp="80" sp="1.2" wp="50" font="mono" file="hwopenvg.go"/>
+		<image xp="70" yp="75" width="1920" height="1080" scale="40" name="hellovg.raw.png"/>
+		<text xp="4" yp="90" sp="1.4" wp="50" font="mono" file="hwopenvg.go"/>
 	</slide>
 
 	<slide>
@@ -540,32 +540,32 @@ done</text>
 		
 	<slide>
 		<text xp="7" yp="97" sp="1" font="mono" file="gen.go"/>
-		<image xp="70" yp="62" width="220" height="124" name="gen1.png"/>
-		<image xp="70" yp="42" width="220" height="124" name="gen2.png"/>	
-		<image xp="70" yp="20" width="220" height="124" name="gen3.png"/>
+		<image xp="65" yp="62" width="1431" height="807" scale="25" name="gen1.png"/>
+		<image xp="65" yp="42" width="1431" height="811" scale="25" name="gen2.png"/>	
+		<image xp="65" yp="20" width="1429" height="810" scale="25" name="gen3.png"/>
 	</slide>
 	
 	<slide>
 		<text xp="15" yp="92" sp="2" font="mono" file="gen1.go"/>
-		<image xp="35" yp="25" width="600" height="337" name="gen1.png"/>
+		<image xp="35" yp="25" width="1431" height="807" scale="60" name="gen1.png"/>
 	</slide>
 	
 	<slide>
 		<text xp="15" yp="92" sp="2" font="mono" file="gen2.go"/>
-		<image xp="35" yp="25" width="600" height="337" name="gen2.png"/>
+		<image xp="35" yp="25" width="1431" height="811" scale="60" name="gen2.png"/>
 	</slide>
 
 
 	<slide>
 		<text xp="15" yp="92" sp="2" font="mono" file="gen3.go"/>
-		<image xp="35" yp="25" width="600" height="337" name="gen3.png"/>
+		<image xp="35" yp="25" width="1429" height="810" scale="60" name="gen3.png"/>
 	</slide>
 
 
 	<slide bg="rgb(240,240,240)" fg="black">
-		<image xp="20" yp="70" width="350" height="262" name="title.png"/>
-		<image xp="50" yp="70" width="350" height="262" name="section.png"/>
-		<image xp="80" yp="70" width="350" height="262" name="eames.png"/>
+		<image xp="20" yp="70" width="1400" height="1050" scale="40" name="title.png"/>
+		<image xp="50" yp="70" width="1400" height="1050" scale="40" name="section.png"/>
+		<image xp="80" yp="70" width="1400" height="1050" scale="40" name="eames.png"/>
 		<text xp="50" yp="10" sp="3" align="center">capgen slides.txt | pdfdeck ... > slides.pdf</text>
 		<text xp="5" yp="40" sp="1.6" file="slides.txt"/>
 	</slide>
