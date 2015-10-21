@@ -3,14 +3,13 @@
 	<creator>Anthony Starks</creator>
 	<subject>Go, markup, design</subject>
 	<date>2015-10-19</date>
-	<description>This presentation describes the use of Go for programming pictures, a departure from the usual back-end view. dotGo 2015 edition</description>
+	<description>This presentation describes the use of Go for programming pictures, 
+	a departure from the usual back-end view. dotGo 2015 edition</description>
  
 	<slide bg="black" fg="white">
 		<text sp="8" xp="50" yp="60"  align="center">The other side of Go</text>
 		<text sp="5" xp="50" yp="45"  align="center" color="gray">Programming Pictures</text>
-		<text sp="1.5" xp="50" yp="5" align="center" color="gray">@ajstarks</text>
-		<text sp="1.5" xp="5"  yp="5" color="gray">Anthony Starks</text>
-		<text sp="1.5" xp="95" yp="5" align="end" color="gray">dotGo 2015</text>
+		<text sp="1.5" xp="50" yp="5" align="center" color="gray">Anthony Starks</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
@@ -200,18 +199,16 @@
 	<slide><image xp="50" yp="50" width="2246" height="1560" scale="67" name="barchart.png"/></slide>
 	<slide><image xp="50" yp="50" width="2166" height="1626" scale="67" name="compx.png"/></slide>
 	<slide><image xp="50" yp="50" width="2146" height="1594" scale="67" name="pmap.png"/></slide>
-	<slide><image xp="50" yp="50" width="2142" height="1608" scale="67" name="pv.png"/></slide>
 	<slide><image xp="50" yp="50" width="2144" height="1610" scale="67" name="quad.png"/></slide>
 	<slide><image xp="50" yp="50" width="2146" height="1610" scale="67" name="roadmap.png"/></slide>
+	<slide><image xp="50" yp="50" width="2142" height="1608" scale="67" name="pv.png"/></slide>
 	<slide><image xp="50" yp="50" width="1622" height="1610" scale="67" name="rr.png"/></slide>
 	<slide><image xp="50" yp="50" width="2100" height="1628" scale="67" name="servers.png"/></slide>
 	<slide><image xp="50" yp="50" width="2132" height="1588" scale="67" name="svgplot.png"/></slide>
 	<slide><image xp="50" yp="50" width="2148" height="1594" scale="67" name="timeline.png"/></slide>
 	<slide><image xp="50" yp="50" width="2138" height="1596" scale="67" name="tweetfreq.png"/></slide>
 	
-	<slide>
-		<image xp="50" yp="50" width="1591" height="998" name="bv-combo.png"/>
-	</slide>
+	<!-- <slide><image xp="50" yp="50" width="1591" height="998" name="bv-combo.png"/></slide> -->
 
 	<slide bg="black">
 		<image xp="20" yp="50"  width="1150" height="2072" scale="45" name="lt-04-jones-montiel.png"/>
@@ -234,15 +231,6 @@
 	<text xp="5" yp="50" sp="2" color="rgb(127,0,0)" file="flickr-resp.xml"/>
 	<image xp="70" yp="70" width="800" height="500" name="sunset.png"/>
 	</slide>
-	
-	<slide>
-		<text xp="20" yp="85" sp="4" font="mono">
-for i in $(cat top-ten)
-do
-    shotchart -net $i > $i.svg
-done</text>
-</slide>
-
 
 	<slide><image xp="50" yp="50"  width="900" height="846" name="201566.png"/></slide>
 	<slide><image xp="50" yp="50"  width="900" height="846" name="201933.png"/></slide>
@@ -306,7 +294,6 @@ done</text>
 	</slide>
 
 	<slide>
-		
 		<text  xp="12" yp="95" sp="3">Openvg Functions</text>
 		<text  xp="12" yp="85" sp="2">Circle</text>
 		<text  xp="12" yp="79" sp="2">Ellipse</text>
@@ -691,26 +678,6 @@ Gate C31C
 	<text xp="90" yp="10" sp="1.5" align="right">Closing Price, 2015-01-13</text>
 	</slide>
 
-
-	<slide bg="white" fg="rgb(50,50,50)">
-	  <text xp="50" yp="90" sp="4" align="center">Two Columns</text>
-	  <line xp1="50" yp1="80" xp2="50" yp2="10" sp="0.1" color="black" />
-	  <image xp="20" yp="25" width="360" height="203" name="desert2.jpg" caption="Tree and Sky"/>
-	  <image xp="75" yp="25" width="360" height="203" name="desert3.jpg" caption="Rocks"/>
-	  <list xp="20" yp="75" sp="3">
-	    <li>One</li>
-	    <li>Two</li>
-	    <li>Three</li>
-	    <li>Four</li>
-	  </list>
-	  <list xp="70" yp="75" sp="3">
-	    <li>Five</li>
-	    <li>Six</li>
-	    <li>Seven</li>
-	    <li>Eight</li>
-	  </list>
-	</slide>
-
 	<slide>
 		<text xp="7.5" yp="50" align="center" color="maroon" sp="5">go</text>
 		<text xp="15.00" yp="95.00" sp="2.0">build</text>
@@ -814,7 +781,7 @@ and the voice of the turtle is heard in our land.
 	</slide>
 
 	<slide>
-		<image xp="70" yp="50" width="600" height="600" name="dr600.jpg" caption="Dieter Rams" color="gray"/>
+		<image xp="70" yp="45" width="1280" height="740" name="dr-large.jpg" color="gray"/>
 		<text xp="4" yp="90" sp="4" link="https://www.vitsoe.com/us/about/good-design">Good Design</text>
 		<list xp="4" yp="80" sp="2.2" type="plain">
 			<li>is innovative</li>
@@ -844,17 +811,10 @@ and the voice of the turtle is heard in our land.
 	<slide bg="rgb(0,0,127)" fg="white">
 		<text xp="10" yp="70" sp="4" type="block" wp="60" link="https://groups.google.com/d/msg/golang-nuts/19a3E6adUKw/cQajGAcqBgAJ">Go is not the product of a Whiggish development process.
 We were just trying to get something that worked for us.</text>
-		<text xp="10" yp="20" sp="3">Rob Pike, “Origin of Go’s interface design”, golang-nuts,
-October 11, 2015</text>
+		<text xp="10" yp="20" sp="3">Rob Pike, “Origin of Go’s interface design”, golang-nuts</text>
 	</slide>
 	
-	<slide bg="black" fg="white">
-		<text xp="50" yp="50" sp="7" align="center">Making Tools</text>
-	</slide>
-	
-	<slide bg="orange" fg="black">
-		<text xp="50" yp="50" sp="7" align="center">Fun</text>
-	</slide>
+
 	
 	<slide bg="black" fg="white">
 		<text xp="50" yp="50" sp="7" font="mono" align="center">fmt</text>
@@ -890,7 +850,15 @@ October 11, 2015</text>
 		<image xp="50" yp="50" name="rsc-gmail.png" width="1300" height="376"/>
 	</slide>
 	
-	<slide bg="rgb(0,0,127)" fg="white">
+	<slide bg="black" fg="white">
+		<text xp="50" yp="50" sp="7" align="center">Making Tools</text>
+	</slide>
+	
+	<slide bg="orange" fg="black">
+		<text xp="50" yp="50" sp="7" align="center">Fun</text>
+	</slide>
+	
+	<slide bg="black" fg="white">
 		<text xp="50" yp="50" sp="5" align="center">Reducing the distance from
 the idea to the picture</text>
 	</slide>
