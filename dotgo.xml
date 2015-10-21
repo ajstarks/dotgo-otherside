@@ -112,7 +112,7 @@
 	</slide>
 
 	<slide>
-		<image xp="70" yp="75" width="600" height="338" name="hw.png"/>
+		<image xp="70" yp="70" width="960" height="540" name="hw.png"/>
 	  	<text xp="4" yp="90" sp="1.8" wp="50" font="mono" file="hwsvg.go"/>
 	</slide>
 
@@ -123,7 +123,7 @@
 	</slide>
 	
 	<slide>
-		<text xp="50" yp="95" sp="3" link="http://ajstarks.org:1958/" align="c">http://ajstarks.org:1958/{thing}/</text>
+		<text xp="50" yp="95" sp="2.5" link="http://ajstarks.org:1958/" align="c">http://ajstarks.org:1958/{thing}/</text>
 		<image xp="20" yp="80" width="256" height="256" color="gray" name="clock.png" sp="1.6" caption="clock"/>
 		<image xp="40" yp="80" width="256" height="256" color="gray" name="funnel.png" sp="1.6"  caption="funnel"/>
 		<image xp="60" yp="80" width="256" height="256" color="gray" name="rotext.png" sp="1.6"  caption="rotext"/>
@@ -163,12 +163,19 @@
 	</slide>
 	
 	<slide>
-		<text xp="2" yp="94" sp="2">[1] Imports</text>
-		<text xp="35" yp="94" sp="2">[2] Data Structures</text>
-		<text xp="68" yp="94" sp="2">[3] Flags and Main</text>
-		<text xp="2" yp="46" sp="2">[5] Read the Input</text>
-		<text xp="35" yp="46" sp="2">[6] Parse and Load</text>
-		<text xp="68" yp="46" sp="2">[7] Draw</text>
+		<rect xp="16" yp="95" wp="30" hp="6" color="black"/>
+		<rect xp="49" yp="95" wp="30" hp="6" color="black"/>
+		<rect xp="82" yp="95" wp="30" hp="6" color="black"/>
+		<rect xp="16" yp="47" wp="30" hp="6" color="black"/>
+		<rect xp="49" yp="47" wp="30" hp="6" color="black"/>
+		<rect xp="82" yp="47" wp="30" hp="6" color="black"/>
+
+		<text xp="2" yp="94" sp="2" color="white">[1] Imports</text>
+		<text xp="35" yp="94" sp="2" color="white">[2] Data Structures</text>
+		<text xp="68" yp="94" sp="2" color="white">[3] Flags and Main</text>
+		<text xp="2" yp="46" sp="2" color="white">[5] Read the Input</text>
+		<text xp="35" yp="46" sp="2" color="white">[6] Parse and Load</text>
+		<text xp="68" yp="46" sp="2" color="white">[7] Draw</text>
 		<text xp="2" yp="90" sp="1" type="code" file="rpd-1.go" wp="30"/>
 		<text xp="35" yp="90" sp="1" type="code" file="rpd-2.go" wp="30"/>
 		<text xp="68" yp="90" sp="1" type="code" file="rpd-34.go" wp="30"/>
@@ -176,32 +183,35 @@
 		<text xp="35" yp="42" sp="1" type="code" file="rpd-5.go" wp="30"/>
 		<text xp="68" yp="42" sp="1" type="code" file="rpd-6.go" wp="30"/>
 	</slide>
-
-	<slide>
-		<image xp="50" yp="50" width="1024" height="768" name="bs.jpg"/>
-	</slide>
 	
 	<slide>
-		<text xp="50" yp="90" sp="3" align="center">pmap -stagger -showtitle -p -t "Browser Market Share" bs.xml</text>
-		<text xp="7" yp="70" sp="1.8" file="bsx.xml"/>
-		<image xp="70" yp="50" width="1024" height="768" scale="60" name="bs.png"/>
+		<text xp="50" yp="90" sp="3" align="center">barchart -showdata -showtitle benchmarks.xml</text>
+		<text xp="2" yp="80" sp="1" type="code" wp="45" file="benchmarks.xml"/>
+		<image xp="71" yp="50" width="2246" height="1560" scale="45" name="barchart.png"/>
 	</slide>
 	
 	<slide>
 		<text xp="50" yp="60" sp="6" align="center">SVGo Clients</text>
 	</slide>
 	
-	<!-- Insert screenshots -->
+	<slide><image xp="50" yp="50" width="2018" height="1610" scale="67" name="benchviz.png"/></slide>
+	<!-- <slide><image xp="50" yp="50" width="2640" height="1638" scale="67" name="/Users/ajstarks/Desktop/bg2.png"/></slide> -->
+	<slide><image xp="50" yp="50" width="2716" height="1596" scale="67" name="bulletgraph.png"/></slide>
+	<slide><image xp="50" yp="50" width="2246" height="1560" scale="67" name="barchart.png"/></slide>
+	<slide><image xp="50" yp="50" width="2166" height="1626" scale="67" name="compx.png"/></slide>
+	<slide><image xp="50" yp="50" width="2146" height="1594" scale="67" name="pmap.png"/></slide>
+	<slide><image xp="50" yp="50" width="2142" height="1608" scale="67" name="pv.png"/></slide>
+	<slide><image xp="50" yp="50" width="2144" height="1610" scale="67" name="quad.png"/></slide>
+	<slide><image xp="50" yp="50" width="2146" height="1610" scale="67" name="roadmap.png"/></slide>
+	<slide><image xp="50" yp="50" width="1622" height="1610" scale="67" name="rr.png"/></slide>
+	<slide><image xp="50" yp="50" width="2100" height="1628" scale="67" name="servers.png"/></slide>
+	<slide><image xp="50" yp="50" width="2132" height="1588" scale="67" name="svgplot.png"/></slide>
+	<slide><image xp="50" yp="50" width="2148" height="1594" scale="67" name="timeline.png"/></slide>
+	<slide><image xp="50" yp="50" width="2138" height="1596" scale="67" name="tweetfreq.png"/></slide>
 	
-	<slide><image xp="50" yp="50" width="1024" height="768" name="data-class.png"/></slide>
-	<slide><image xp="50" yp="50" width="1024" height="768" name="ey.png"/></slide>
-	<slide><image xp="50" yp="50" width="1024" height="768" name="ey-rr.png"/></slide>
-	<slide><image xp="50" yp="50" width="1024" height="768" name="plan2plan.png"/></slide>
-	<slide bg="white"><image xp="50" yp="50" width="1024" height="768" name="timeline.png"/></slide>
-	<slide><image xp="50" yp="50" width="1024" height="768" name="quad.png"/></slide>
-	<slide><image xp="50" yp="50" width="1024" height="768" name="bg.png"/></slide>
-	<slide><image xp="50" yp="50" width="1024" height="768" name="bc.png"/></slide>
-	<slide><image xp="50" yp="50" width="1024" height="768" name="svgplot.png"/></slide>
+	<slide>
+		<image xp="50" yp="50" width="1591" height="998" name="bv-combo.png"/>
+	</slide>
 
 	<slide bg="black">
 		<image xp="20" yp="50"  width="1150" height="2072" scale="45" name="lt-04-jones-montiel.png"/>
@@ -222,7 +232,7 @@
       &amp;per_page=50
       &amp;sort=interestingness-desc</text>
 	<text xp="5" yp="50" sp="2" color="rgb(127,0,0)" file="flickr-resp.xml"/>
-	<image xp="70" yp="75" width="800" height="500" name="sunset.png"/>
+	<image xp="70" yp="70" width="800" height="500" name="sunset.png"/>
 	</slide>
 	
 	<slide>
@@ -262,11 +272,6 @@ done</text>
 		<image xp="80" yp="12" scale="30" width="900" height="846" name="2544.png"/>
 	</slide>
 	
-	<!-- <text xp="5" yp="5" sp="3">http://ajstarks.org:2012/benchviz/</text> -->
-	<slide>
-		<image xp="50" yp="50" width="1024" height="642" name="bv-combo.png"/>
-	</slide>
-	
 	<slide>
 		<image xp="85" yp="80" width="200" height="200" name="15.png"/>
 		<image xp="85" yp="50" width="200" height="200" name="30.png"/>
@@ -296,42 +301,42 @@ done</text>
 	</slide>
 	
 	<slide>
-		<image xp="70" yp="75" width="1920" height="1080" scale="40" name="hellovg.raw.png"/>
+		<image xp="70" yp="70" width="1920" height="1080" scale="50" name="hellovg.raw.png"/>
 		<text xp="4" yp="90" sp="1.4" wp="50" font="mono" file="hwopenvg.go"/>
 	</slide>
 
 	<slide>
 		
 		<text  xp="12" yp="95" sp="3">Openvg Functions</text>
-		<text  xp="12" yp="85" sp="2.5">Circle</text>
-		<text  xp="12" yp="79" sp="2.5">Ellipse</text>
-		<text  xp="12" yp="73" sp="2.5">Rect</text>
-		<text  xp="12" yp="67" sp="2.5">Roundrect</text>
-		<text  xp="12" yp="61" sp="2.5">Line</text>
-		<text  xp="12" yp="55" sp="2.5">Polyline</text>
-		<text  xp="12" yp="49" sp="2.5">Polygon</text>
-		<text  xp="12" yp="43" sp="2.5">Arc</text>
-		<text  xp="12" yp="37" sp="2.5">Qbezier</text>
-		<text  xp="12" yp="31" sp="2.5">Cbezier</text>
-		<text  xp="12" yp="25" sp="2.5">Image</text>
-		<text  xp="12" yp="19" sp="2.5">Text</text>
-		<text  xp="12" yp="13" sp="2.5">TextMid</text>
-		<text  xp="12" yp="7" sp="2.5">TextEnd</text>
+		<text  xp="12" yp="85" sp="2">Circle</text>
+		<text  xp="12" yp="79" sp="2">Ellipse</text>
+		<text  xp="12" yp="73" sp="2">Rect</text>
+		<text  xp="12" yp="67" sp="2">Roundrect</text>
+		<text  xp="12" yp="61" sp="2">Line</text>
+		<text  xp="12" yp="55" sp="2">Polyline</text>
+		<text  xp="12" yp="49" sp="2">Polygon</text>
+		<text  xp="12" yp="43" sp="2">Arc</text>
+		<text  xp="12" yp="37" sp="2">Qbezier</text>
+		<text  xp="12" yp="31" sp="2">Cbezier</text>
+		<text  xp="12" yp="25" sp="2">Image</text>
+		<text  xp="12" yp="19" sp="2">Text</text>
+		<text  xp="12" yp="13" sp="2">TextMid</text>
+		<text  xp="12" yp="7" sp="2">TextEnd</text>
 		
-		<text  xp="25" yp="85" sp="2.5" color="gray">(x, y, r VGfloat)</text>
-		<text  xp="25" yp="79" sp="2.5" color="gray">(x, y, w, h VGfloat)</text>
-		<text  xp="25" yp="73" sp="2.5" color="gray">(x, y, w, h VGfloat)</text>
-		<text  xp="25" yp="67" sp="2.5" color="gray">(x, y, w, h, rw, rh VGfloat)</text>
-		<text  xp="25" yp="61" sp="2.5" color="gray">(x1, y1, x2, y2 VGfloat)</text>
-		<text  xp="25" yp="55" sp="2.5" color="gray">(x, y []VGfloat)</text>
-		<text  xp="25" yp="49" sp="2.5" color="gray">(x, y []VGfloat)</text>
-		<text  xp="25" yp="43" sp="2.5" color="gray">(x, y, w, h, sa, aext VGfloat)</text>
-		<text  xp="25" yp="37" sp="2.5" color="gray">(sx, sy, cx, cy, ex, ey VGfloat)</text>
-		<text  xp="25" yp="31" sp="2.5" color="gray">(sx, sy, cx, cy, px, py, ex, ey VGfloat)</text>
-		<text  xp="25" yp="25" sp="2.5" color="gray">(x, y VGfloat, w, h int, s string)</text>
-		<text  xp="25" yp="19" sp="2.5" color="gray">(x, y VGfloat, s string, font string, size int)</text>
-		<text  xp="25" yp="13" sp="2.5" color="gray">(x, y VGfloat, s string, font string, size int)</text>
-		<text  xp="25" yp="7" sp="2.5" color="gray">(x, y VGfloat, s string, font string, size int)</text>
+		<text  xp="25" yp="85" sp="2" color="gray">(x, y, r VGfloat)</text>
+		<text  xp="25" yp="79" sp="2" color="gray">(x, y, w, h VGfloat)</text>
+		<text  xp="25" yp="73" sp="2" color="gray">(x, y, w, h VGfloat)</text>
+		<text  xp="25" yp="67" sp="2" color="gray">(x, y, w, h, rw, rh VGfloat)</text>
+		<text  xp="25" yp="61" sp="2" color="gray">(x1, y1, x2, y2 VGfloat)</text>
+		<text  xp="25" yp="55" sp="2" color="gray">(x, y []VGfloat)</text>
+		<text  xp="25" yp="49" sp="2" color="gray">(x, y []VGfloat)</text>
+		<text  xp="25" yp="43" sp="2" color="gray">(x, y, w, h, sa, aext VGfloat)</text>
+		<text  xp="25" yp="37" sp="2" color="gray">(sx, sy, cx, cy, ex, ey VGfloat)</text>
+		<text  xp="25" yp="31" sp="2" color="gray">(sx, sy, cx, cy, px, py, ex, ey VGfloat)</text>
+		<text  xp="25" yp="25" sp="2" color="gray">(x, y VGfloat, w, h int, s string)</text>
+		<text  xp="25" yp="19" sp="2" color="gray">(x, y VGfloat, s string, font string, size int)</text>
+		<text  xp="25" yp="13" sp="2" color="gray">(x, y VGfloat, s string, font string, size int)</text>
+		<text  xp="25" yp="7" sp="2" color="gray">(x, y VGfloat, s string, font string, size int)</text>
 
 	
 		<ellipse xp="5" yp="86" wp="2.5" hr="100" color="maroon"/>
@@ -348,7 +353,7 @@ done</text>
 		<curve xp1="2.5"  yp1="32"   xp2="3"  yp2="42"  xp3="5"   yp3="32" color="maroon"/>
 		<curve xp1="5"    yp1="32"   xp2="6"  yp2="30"  xp3="7.5" yp3="35" color="maroon"/>
 
-		<image xp="5" yp="27" width="110" height="110" scale="80" name="starx.jpg"/>
+		<image xp="5" yp="27" width="256" height="199" scale="40" name="ajs.png"/>
 		<text xp="5" yp="19" sp="1">ABC</text>
 		<text xp="5" yp="13" sp="1" align="center">ABC</text>
 		<text xp="5" yp="7" sp="1" align="end">ABC</text>
@@ -632,14 +637,14 @@ done</text>
 		<text xp="5" yp="90" sp="6">Document Links</text>
 		<text xp="5" yp="80" sp="2.5" type="block" wp="20">Add web and mailto links with the link attribute of the text element.</text>
 		<text xp="5" yp="45" sp="2.5" type="block" wp="20">Once rendered as a PDF, clicking on the link opens the default browser or email client.</text>
-		<image xp="65" yp="50" width="1337" height="820" name="links.png"/>
+		<image xp="65" yp="45" width="1337" height="820" name="links.png"/>
 		<text xp="5" yp="5" sp="1.5">A Guide to Deck</text>
 		<text xp="95"  yp="5" sp="1.5" align="right">Page 10</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
 	    <text  xp="15"  yp="70" sp="11" align="center">BOS</text>
-	    <image xp="15"  yp="55" width="50" height="50" name="plane.png"/>
+	    <image xp="15"  yp="55" width="100" height="100" name="white-plane.png"/>
 	    <text  xp="15"  yp="25" sp="11" align="center">SFO</text>
 	    <line  xp1="30" yp1="90" xp2="30" yp2="15" color="white" sp="0.1"/>
 	    <text  xp="35"  yp="75" sp="6.25">Virgin America 351
@@ -650,7 +655,7 @@ Gate B38
 
 	<slide bg="black" fg="white">
 	<text  xp="15"  yp="70" sp="11" align="center">JFK</text>
-	<image xp="15"  yp="55" width="50" height="50" name="plane.png"/>
+	<image xp="15"  yp="55" width="100" height="100" name="white-plane.png"/>
 	<text  xp="15"  yp="25" sp="11" align="center">IND</text>
 	<line  xp1="30" yp1="90" xp2="30" yp2="15" color="white" sp="0.1"/>
 	<text  xp="35"  yp="75" sp="6.25">US Airways 1207
@@ -705,53 +710,54 @@ Gate C31C
 	    <li>Eight</li>
 	  </list>
 	</slide>
-	
-	
-	
+
 	<slide>
-		<text xp="5" yp="53" sp="5" font="mono" color="rgb(127,0,0)">go</text>
-		<text xp="15.00" yp="95.00" sp="2.50" align=""  font="sans" opacity="100.00" color="black" type="">build</text>
-		<line xp1="15.00" yp1="92.69" xp2="90.00" yp2="92.69" sp="0.10" opacity="100.00" color="" />
-		<text xp="15.00" yp="88.08" sp="2.50" align=""  font="sans" opacity="100.00" color="black" type="">clean</text>
-		<line xp1="15.00" yp1="85.77" xp2="90.00" yp2="85.77" sp="0.10" opacity="100.00" color="" />
-		<text xp="15.00" yp="81.15" sp="2.50" align=""  font="sans" opacity="100.00" color="black" type="">env</text>
-		<line xp1="15.00" yp1="78.85" xp2="90.00" yp2="78.85" sp="0.10" opacity="100.00" color="" />
-		<text xp="15.00" yp="74.23" sp="2.50" align=""  font="sans" opacity="100.00" color="black" type="">fix</text>
-		<line xp1="15.00" yp1="71.92" xp2="90.00" yp2="71.92" sp="0.10" opacity="100.00" color="" />
-		<text xp="15.00" yp="67.31" sp="2.50" align=""  font="sans" opacity="100.00" color="black" type="">fmt</text>
-		<line xp1="15.00" yp1="65.00" xp2="90.00" yp2="65.00" sp="0.10" opacity="100.00" color="" />
-		<text xp="15.00" yp="60.38" sp="2.50" align=""  font="sans" opacity="100.00" color="black" type="">generate</text>
-		<line xp1="15.00" yp1="58.08" xp2="90.00" yp2="58.08" sp="0.10" opacity="100.00" color="" />
-		<text xp="15.00" yp="53.46" sp="2.50" align=""  font="sans" opacity="100.00" color="black" type="">get</text>
-		<line xp1="15.00" yp1="51.15" xp2="90.00" yp2="51.15" sp="0.10" opacity="100.00" color="" />
-		<text xp="15.00" yp="46.54" sp="2.50" align=""  font="sans" opacity="100.00" color="black" type="">install</text>
-		<line xp1="15.00" yp1="44.23" xp2="90.00" yp2="44.23" sp="0.10" opacity="100.00" color="" />
-		<text xp="15.00" yp="39.62" sp="2.50" align=""  font="sans" opacity="100.00" color="black" type="">list</text>
-		<line xp1="15.00" yp1="37.31" xp2="90.00" yp2="37.31" sp="0.10" opacity="100.00" color="" />
-		<text xp="15.00" yp="32.69" sp="2.50" align=""  font="sans" opacity="100.00" color="black" type="">run</text>
-		<line xp1="15.00" yp1="30.38" xp2="90.00" yp2="30.38" sp="0.10" opacity="100.00" color="" />
-		<text xp="15.00" yp="25.77" sp="2.50" align=""  font="sans" opacity="100.00" color="black" type="">test</text>
-		<line xp1="15.00" yp1="23.46" xp2="90.00" yp2="23.46" sp="0.10" opacity="100.00" color="" />
-		<text xp="15.00" yp="18.85" sp="2.50" align=""  font="sans" opacity="100.00" color="black" type="">tool</text>
-		<line xp1="15.00" yp1="16.54" xp2="90.00" yp2="16.54" sp="0.10" opacity="100.00" color="" />
-		<text xp="15.00" yp="11.92" sp="2.50" align=""  font="sans" opacity="100.00" color="black" type="">version</text>
-		<line xp1="15.00" yp1="9.62" xp2="90.00" yp2="9.62" sp="0.10" opacity="100.00" color="" />
-		<text xp="15.00" yp="5.00" sp="2.50" align=""  font="sans" opacity="100.00" color="black" type="">vet</text>
-		<line xp1="15.00" yp1="2.69" xp2="90.00" yp2="2.69" sp="0.10" opacity="100.00" color="" />
-		<text xp="30.00" yp="95.00" sp="2.50" align=""  font="sans" opacity="100.00" color="gray" type="">compile packages and dependencies</text>
-		<text xp="30.00" yp="88.08" sp="2.50" align=""  font="sans" opacity="100.00" color="gray" type="">remove object files</text>
-		<text xp="30.00" yp="81.15" sp="2.50" align=""  font="sans" opacity="100.00" color="gray" type="">print Go environment information</text>
-		<text xp="30.00" yp="74.23" sp="2.50" align=""  font="sans" opacity="100.00" color="gray" type="">run go tool fix on packages</text>
-		<text xp="30.00" yp="67.31" sp="2.50" align=""  font="sans" opacity="100.00" color="gray" type="">run gofmt on package sources</text>
-		<text xp="30.00" yp="60.38" sp="2.50" align=""  font="sans" opacity="100.00" color="gray" type="">generate Go files by processing source</text>
-		<text xp="30.00" yp="53.46" sp="2.50" align=""  font="sans" opacity="100.00" color="gray" type="">download and install packages and dependencies</text>
-		<text xp="30.00" yp="46.54" sp="2.50" align=""  font="sans" opacity="100.00" color="gray" type="">compile and install packages and dependencies</text>
-		<text xp="30.00" yp="39.62" sp="2.50" align=""  font="sans" opacity="100.00" color="gray" type="">list packages</text>
-		<text xp="30.00" yp="32.69" sp="2.50" align=""  font="sans" opacity="100.00" color="gray" type="">compile and run Go program</text>
-		<text xp="30.00" yp="25.77" sp="2.50" align=""  font="sans" opacity="100.00" color="gray" type="">test packages</text>
-		<text xp="30.00" yp="18.85" sp="2.50" align=""  font="sans" opacity="100.00" color="gray" type="">run specified go tool</text>
-		<text xp="30.00" yp="11.92" sp="2.50" align=""  font="sans" opacity="100.00" color="gray" type="">print Go version</text>
-		<text xp="30.00" yp="5.00" sp="2.50" align=""  font="sans" opacity="100.00" color="gray" type="">run go tool vet on packages</text>
+		<text xp="7.5" yp="50" align="center" color="maroon" sp="5">go</text>
+		<text xp="15.00" yp="95.00" sp="2.0">build</text>
+		<text xp="30" yp="95.00" sp="2.0" color="gray">compile packages and dependencies</text>
+		<line sp="0.05" xp1="15.00" yp1="93.00" xp2="80" yp2="93.00"/>
+		<text xp="15.00" yp="88.50" sp="2.0">clean</text>
+		<text xp="30" yp="88.50" sp="2.0" color="gray">remove object files</text>
+		<line sp="0.05" xp1="15.00" yp1="86.50" xp2="80" yp2="86.50"/>
+		<text xp="15.00" yp="82.00" sp="2.0">doc</text>
+		<text xp="30" yp="82.00" sp="2.0" color="gray">show documentation for package or symbol</text>
+		<line sp="0.05" xp1="15.00" yp1="80.00" xp2="80" yp2="80.00"/>
+		<text xp="15.00" yp="75.50" sp="2.0">env</text>
+		<text xp="30" yp="75.50" sp="2.0" color="gray">print Go environment information</text>
+		<line sp="0.05" xp1="15.00" yp1="73.50" xp2="80" yp2="73.50"/>
+		<text xp="15.00" yp="69.00" sp="2.0">fix</text>
+		<text xp="30" yp="69.00" sp="2.0" color="gray">run go tool fix on packages</text>
+		<line sp="0.05" xp1="15.00" yp1="67.00" xp2="80" yp2="67.00"/>
+		<text xp="15.00" yp="62.50" sp="2.0">fmt</text>
+		<text xp="30" yp="62.50" sp="2.0" color="gray">run gofmt on package sources</text>
+		<line sp="0.05" xp1="15.00" yp1="60.50" xp2="80" yp2="60.50"/>
+		<text xp="15.00" yp="56.00" sp="2.0">generate</text>
+		<text xp="30" yp="56.00" sp="2.0" color="gray">generate Go files by processing source</text>
+		<line sp="0.05" xp1="15.00" yp1="54.00" xp2="80" yp2="54.00"/>
+		<text xp="15.00" yp="49.50" sp="2.0">get</text>
+		<text xp="30" yp="49.50" sp="2.0" color="gray">download and install packages and dependencies</text>
+		<line sp="0.05" xp1="15.00" yp1="47.50" xp2="80" yp2="47.50"/>
+		<text xp="15.00" yp="43.00" sp="2.0">install</text>
+		<text xp="30" yp="43.00" sp="2.0" color="gray">compile and install packages and dependencies</text>
+		<line sp="0.05" xp1="15.00" yp1="41.00" xp2="80" yp2="41.00"/>
+		<text xp="15.00" yp="36.50" sp="2.0">list</text>
+		<text xp="30" yp="36.50" sp="2.0" color="gray">list packages</text>
+		<line sp="0.05" xp1="15.00" yp1="34.50" xp2="80" yp2="34.50"/>
+		<text xp="15.00" yp="30.00" sp="2.0">run</text>
+		<text xp="30" yp="30.00" sp="2.0" color="gray">compile and run Go program</text>
+		<line sp="0.05" xp1="15.00" yp1="28.00" xp2="80" yp2="28.00"/>
+		<text xp="15.00" yp="23.50" sp="2.0">test</text>
+		<text xp="30" yp="23.50" sp="2.0" color="gray">test packages</text>
+		<line sp="0.05" xp1="15.00" yp1="21.50" xp2="80" yp2="21.50"/>
+		<text xp="15.00" yp="17.00" sp="2.0">tool</text>
+		<text xp="30" yp="17.00" sp="2.0" color="gray">run specified go tool</text>
+		<line sp="0.05" xp1="15.00" yp1="15.00" xp2="80" yp2="15.00"/>
+		<text xp="15.00" yp="10.50" sp="2.0">version</text>
+		<text xp="30" yp="10.50" sp="2.0" color="gray">print Go version</text>
+		<line sp="0.05" xp1="15.00" yp1="8.50" xp2="80" yp2="8.50"/>
+		<text xp="15.00" yp="4.00" sp="2.0">vet</text>
+		<text xp="30" yp="4.00" sp="2.0" color="gray">run go tool vet on packages</text>
+		<line sp="0.05" xp1="15.00" yp1="2.00" xp2="80" yp2="2.00"/>
 	</slide>
 
 	
@@ -831,21 +837,22 @@ and the voice of the turtle is heard in our land.
 	
 	
 	<slide bg="rgb(0,0,127)" fg="white">
-		<text xp="10" yp="70" sp="4" type="block" wp="60" ink="http://csapp.cs.cmu.edu/3e/docs/chistory.html">Thompson wanted to create a comfortable computing environment constructed according to his own design, using whatever means were available</text>
-		<text xp="10" yp="20" sp="3">The Development of the C Language, Dennis M. Ritchie</text>
+		<text xp="10" yp="70" sp="4" type="block" wp="60" link="http://csapp.cs.cmu.edu/3e/docs/chistory.html">Thompson wanted to create a comfortable computing environment constructed according to his own design, using whatever means were available.</text>
+		<text xp="10" yp="20" sp="3">Dennis M. Ritchie, “The Development of the C Language”</text>
 	</slide>
 	
 	<slide bg="rgb(0,0,127)" fg="white">
 		<text xp="10" yp="70" sp="4" type="block" wp="60" link="https://groups.google.com/d/msg/golang-nuts/19a3E6adUKw/cQajGAcqBgAJ">Go is not the product of a Whiggish development process.
 We were just trying to get something that worked for us.</text>
-		<text xp="10" yp="20" sp="3">Rob Pike</text>
+		<text xp="10" yp="20" sp="3">Rob Pike, “Origin of Go’s interface design”, golang-nuts,
+October 11, 2015</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
 		<text xp="50" yp="50" sp="7" align="center">Making Tools</text>
 	</slide>
 	
-	<slide bg="yellow" fg="black">
+	<slide bg="orange" fg="black">
 		<text xp="50" yp="50" sp="7" align="center">Fun</text>
 	</slide>
 	

@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-    width := 600
-    height := 338
+    width := 960
+    height := 540
     canvas := svg.New(os.Stdout)
     canvas.Start(width, height)
     canvas.Rect(0, 0, width, height, "fill:black")
