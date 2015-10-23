@@ -2,7 +2,7 @@
 	<title>The Other Side of Go</title>
 	<creator>Anthony Starks</creator>
 	<subject>Go, markup, design</subject>
-	<date>2015-10-19</date>
+	<date>2015-10-22</date>
 	<description>This presentation describes the use of Go for programming pictures, 
 	a departure from the usual back-end view. dotGo 2015 edition</description>
  
@@ -189,8 +189,8 @@
 		<image xp="71" yp="50" width="2246" height="1560" scale="45" name="barchart.png"/>
 	</slide>
 	
-	<slide>
-		<text xp="50" yp="60" sp="6" align="center">SVGo Clients</text>
+	<slide bg="rgb(127,127,127)" fg="white">
+	   <text xp="10" yp="50" sp="5">SVGo Clients</text>
 	</slide>
 	
 	<slide><image xp="50" yp="50" width="2018" height="1610" scale="67" name="benchviz.png"/></slide>
@@ -243,7 +243,7 @@
 	<slide><image xp="50" yp="50"  width="900" height="846" name="203076.png"/></slide>
 	<slide><image xp="50" yp="50"  width="900" height="846" name="2544.png"/></slide>
 	<slide><image xp="50" yp="50"  width="900" height="846" name="2544.png"/></slide>
-	
+	<!--
 	<slide bg="lightgray">
 		<image xp="50" yp="87" scale="30" width="900" height="846" name="201566.png"/>
 		
@@ -259,7 +259,7 @@
 		<image xp="60" yp="12" scale="30" width="900" height="846" name="203076.png"/>
 		<image xp="80" yp="12" scale="30" width="900" height="846" name="2544.png"/>
 	</slide>
-	
+	-->
 	<slide>
 		<image xp="85" yp="80" width="200" height="200" name="15.png"/>
 		<image xp="85" yp="50" width="200" height="200" name="30.png"/>
@@ -781,7 +781,7 @@ and the voice of the turtle is heard in our land.
 	</slide>
 
 	<slide>
-		<image xp="70" yp="45" width="1280" height="740" name="dr-large.jpg" color="gray"/>
+		<image xp="70" yp="45" width="1024" height="740" name="dr-large-crop.jpg" color="gray"/>
 		<text xp="4" yp="90" sp="4" link="https://www.vitsoe.com/us/about/good-design">Good Design</text>
 		<list xp="4" yp="80" sp="2.2" type="plain">
 			<li>is innovative</li>
@@ -817,33 +817,33 @@ We were just trying to get something that worked for us.</text>
 
 	
 	<slide bg="black" fg="white">
-		<text xp="50" yp="50" sp="7" font="mono" align="center">fmt</text>
+		<text xp="50" yp="50" sp="9" font="mono" align="center">fmt</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<text xp="50" yp="50" sp="7" align="center">func</text>
+		<text xp="50" yp="50" sp="9" align="center">func</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<text xp="50" yp="55" sp="7" align="center">Writer</text>
-		<text xp="50" yp="40" sp="7" align="center">Reader</text>
+		<text xp="50" yp="55" sp="9" align="center">Writer
+Reader</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<text xp="50" yp="50" sp="7" font="mono" align="center">net/http</text>
+		<text xp="50" yp="50" sp="9" font="mono" align="center">net/http</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<text xp="50" yp="55" sp="7" font="mono" align="center">encoding/xml</text>
-		<text xp="50" yp="40" sp="7" font="mono" align="center">encoding/json</text>
+		<text xp="50" yp="55" sp="9" font="mono" align="center">encoding/xml
+encoding/json</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<text xp="50" yp="50" sp="7" font="mono" align="center">cgo</text>
+		<text xp="50" yp="50" sp="9" font="mono" align="center">cgo</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<text xp="50" yp="50" sp="7" align="center">The Community</text>
+		<text xp="50" yp="50" sp="9" align="center">The Community</text>
 	</slide>
 	
 	<slide bg="rgb(0,0,127)">
@@ -851,15 +851,15 @@ We were just trying to get something that worked for us.</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<text xp="50" yp="50" sp="7" align="center">Making Tools</text>
+		<text xp="50" yp="50" sp="9" align="center">Making Tools</text>
 	</slide>
 	
 	<slide bg="orange" fg="black">
-		<text xp="50" yp="50" sp="7" align="center">Fun</text>
+		<text xp="50" yp="50" sp="9" align="center">Fun</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<text xp="50" yp="50" sp="5" align="center">Reducing the distance from
+		<text xp="50" yp="50" sp="6" align="center">Reducing the distance from
 the idea to the picture</text>
 	</slide>
 	
