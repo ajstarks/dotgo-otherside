@@ -482,10 +482,10 @@
 	
 	<slide bg="white" fg="rgb(50,50,50)">
 		<text xp="50" yp="90" sp="3" align="center">Scaling the canvas</text>
-		<image xp="25" yp="50" width="400" height="300" name="l.png"/>
-		<image xp="75" yp="50" width="300" height="400" name="p.png"/>
-		<text xp="25" yp="10" sp="2" align="center">Landscape</text>
-		<text xp="75" yp="10" sp="2" align="center">Portrait</text>
+		<image xp="25" yp="50" width="800" height="600" name="land.png"/>
+		<image xp="75" yp="50" width="600" height="800" name="port.png"/>
+		<text xp="25" yp="5" sp="2" align="center">Landscape</text>
+		<text xp="75" yp="5" sp="2" align="center">Portrait</text>
 	</slide>
 	
 	<slide>
@@ -616,7 +616,7 @@
 			<li>Five</li>
 			<li>Six</li>
 		</list>
-		<text xp="5" yp="5" sp="1.5" color="rgb(200,200,200)">A. Person, January 2015</text>
+		<text xp="5" yp="5" sp="1.5" color="rgb(200,200,200)">A. Person, November 2015</text>
 	</slide>
 	
 	
