@@ -2,7 +2,7 @@
 	<title>The Other Side of Go</title>
 	<creator>Anthony Starks</creator>
 	<subject>Go, markup, design</subject>
-	<date>2015-10-22</date>
+	<date>2015-10-23</date>
 	<description>This presentation describes the use of Go for programming pictures, 
 	a departure from the usual back-end view. dotGo 2015 edition</description>
  
@@ -141,15 +141,16 @@
 	
 	
 	<slide>
-		<text xp="5" yp="85" sp="3">http://ajstarks.org:1958/pacman/?angle=20</text><image xp="85" yp="85" width="256" height="256" name="pacman20.png"/>
-		<text xp="5" yp="50" sp="3">http://ajstarks.org:1958/pacman/?angle=40</text><image xp="85" yp="50" width="256" height="256" name="pacman40.png"/>	
-		<text xp="5" yp="15" sp="3">http://ajstarks.org:1958/pacman/?angle=70</text><image xp="85" yp="15" width="256" height="256" name="pacman70.png"/>
+		<text xp="5" yp="85" sp="3">http://ajstarks.org:1958/pacman/?angle=20</text>
+		<image xp="85" yp="85" width="256" height="256" name="pacman20.png"/>
+		<text xp="5" yp="50" sp="3">http://ajstarks.org:1958/pacman/?angle=40</text>
+		<image xp="85" yp="50" width="256" height="256" name="pacman40.png"/>	
+		<text xp="5" yp="15" sp="3">http://ajstarks.org:1958/pacman/?angle=70</text>
+		<image xp="85" yp="15" width="256" height="256" name="pacman70.png"/>
 	</slide>
 	
-	
-	
-	<slide>
-		<text xp="50" yp="60" sp="6" align="center">Read/Parse/Draw Pattern</text>
+	<slide bg="rgb(127,127,127)" fg="white">
+		<text xp="10" yp="50" sp="5">Read/Parse/Draw Pattern</text>
 	</slide>
 	
 	<slide>
@@ -169,12 +170,12 @@
 		<rect xp="49" yp="47" wp="30" hp="6" color="black"/>
 		<rect xp="82" yp="47" wp="30" hp="6" color="black"/>
 
-		<text xp="2" yp="94" sp="2" color="white">[1] Imports</text>
-		<text xp="35" yp="94" sp="2" color="white">[2] Data Structures</text>
-		<text xp="68" yp="94" sp="2" color="white">[3] Flags and Main</text>
-		<text xp="2" yp="46" sp="2" color="white">[5] Read the Input</text>
-		<text xp="35" yp="46" sp="2" color="white">[6] Parse and Load</text>
-		<text xp="68" yp="46" sp="2" color="white">[7] Draw</text>
+		<text xp="2" yp="94" sp="2" color="white">Imports</text>
+		<text xp="35" yp="94" sp="2" color="white">Data Structures</text>
+		<text xp="68" yp="94" sp="2" color="white">Flags and Main</text>
+		<text xp="2" yp="46" sp="2" color="white">Read the Input</text>
+		<text xp="35" yp="46" sp="2" color="white">Parse and Load</text>
+		<text xp="68" yp="46" sp="2" color="white">Draw</text>
 		<text xp="2" yp="90" sp="1" type="code" file="rpd-1.go" wp="30"/>
 		<text xp="35" yp="90" sp="1" type="code" file="rpd-2.go" wp="30"/>
 		<text xp="68" yp="90" sp="1" type="code" file="rpd-34.go" wp="30"/>
@@ -360,13 +361,13 @@
 	
 	<slide bg="white" fg="rgb(50,50,50)">
 		<text xp="95" yp="5" sp="3" align="right">Anatomy of a Deck</text>
-		<list  xp="22" yp="90" sp="1.4" font="sans">
+		<list  xp="16" yp="90" sp="1.4" font="mono">
 		  <li>&lt;deck&gt;</li>
 		  <li>  &lt;canvas width="1024" height="768" /&gt;</li>
 		  <li>  &lt;slide bg="white" fg="black"&gt;</li>
-		  <li>      &lt;image xp="70" yp="60" width="256" height="179" name="work.png" caption="Desk"/&gt;</li>
-		  <li>      &lt;text  xp="20" yp="80" sp="3" link="http://goo.gl/Wm05Ex"&gt;Deck elements&lt;/text&gt;</li>
-		  <li>      &lt;list  xp="20" yp="70" sp="2" type="bullet"&gt;</li>
+		  <li>      &lt;image xp="70" yp="60" width="640" height="480" name="follow.png" sp="1" caption="Dreams"/&gt;</li>
+		  <li>      &lt;text  xp="20" yp="80" sp="4" link="http://goo.gl/Wm05Ex"&gt;Deck elements&lt;/text&gt;</li>
+		  <li>      &lt;list  xp="20" yp="70" sp="3" type="bullet"&gt;</li>
 		  <li>         &lt;li&gt;text, list, image&lt;/li&gt;</li>
 		  <li>         &lt;li&gt;line, rect, ellipse&lt;/li&gt;</li>
 		  <li>         &lt;li&gt;arc, curve, polygon&lt;/li&gt;</li>
@@ -403,9 +404,9 @@
 	</slide>
 
 	<slide bg="white" fg="black">
-	    <image xp="70" yp="60" width="256" height="179" name="work.png" caption="Desk" />
-	    <text  xp="20" yp="90" sp="3" link="http://goo.gl/Wm05Ex">Deck elements</text>
-	    <list  xp="20" yp="70" sp="2" type="bullet">
+	    <image xp="70" yp="60" width="640" height="480" name="follow.jpg" sp="1" caption="Dreams" />
+	    <text  xp="20" yp="90" sp="4" link="http://goo.gl/Wm05Ex">Deck elements</text>
+	    <list  xp="20" yp="70" sp="3" type="bullet">
 	       <li>text, list, image</li>
 	       <li>line, rect, ellipse</li>
 	       <li>arc, curve, polygon</li>
@@ -604,7 +605,7 @@
 (70%)</text>
 	</slide>
 	
-	<slide bg="rgb(100,100,100)" fg="white">
+	<slide bg="black" fg="white">
 		<text xp="5" yp="90" sp="6">My Story</text>
 		<line xp1="30" yp1="80" xp2="30" yp2="10" sp="0.1" color="white"/>
 		<text align="center" xp="20" yp="50" sp="5">Section</text>
@@ -803,29 +804,17 @@ and the voice of the turtle is heard in our land.
 	</slide>
 	
 	
-	<slide bg="rgb(0,0,127)" fg="white">
-		<text xp="10" yp="70" sp="4" type="block" wp="60" link="http://csapp.cs.cmu.edu/3e/docs/chistory.html">Thompson wanted to create a comfortable computing environment constructed according to his own design, using whatever means were available.</text>
-		<text xp="10" yp="20" sp="3">Dennis M. Ritchie, “The Development of the C Language”</text>
-	</slide>
-	
-	<slide bg="rgb(0,0,127)" fg="white">
-		<text xp="10" yp="70" sp="4" type="block" wp="60" link="https://groups.google.com/d/msg/golang-nuts/19a3E6adUKw/cQajGAcqBgAJ">Go is not the product of a Whiggish development process.
-We were just trying to get something that worked for us.</text>
-		<text xp="10" yp="20" sp="3">Rob Pike, “Origin of Go’s interface design”, golang-nuts</text>
-	</slide>
-	
 
-	
 	<slide bg="black" fg="white">
 		<text xp="50" yp="50" sp="9" font="mono" align="center">fmt</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<text xp="50" yp="50" sp="9" align="center">func</text>
+		<text xp="50" yp="50" sp="9" font="mono" align="center">func</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<text xp="50" yp="55" sp="9" align="center">Writer
+		<text xp="50" yp="55" sp="9" font="mono" align="center">Writer
 Reader</text>
 	</slide>
 	
@@ -850,6 +839,20 @@ encoding/json</text>
 		<image xp="50" yp="50" name="rsc-gmail.png" width="1300" height="376"/>
 	</slide>
 	
+	
+	<slide bg="rgb(0,0,127)" fg="white">
+		<text xp="10" yp="70" sp="4" type="block" wp="60" link="http://csapp.cs.cmu.edu/3e/docs/chistory.html">Thompson wanted to create a comfortable computing environment constructed according to his own design, using whatever means were available.</text>
+		<text xp="10" yp="20" sp="3">Dennis M. Ritchie, “The Development of the C Language”</text>
+	</slide>
+	
+	<slide bg="rgb(0,0,127)" fg="white">
+		<text xp="10" yp="70" sp="4" type="block" wp="60" link="https://groups.google.com/d/msg/golang-nuts/19a3E6adUKw/cQajGAcqBgAJ">Go is not the product of a Whiggish development process.
+We were just trying to get something that worked for us.</text>
+		<text xp="10" yp="20" sp="3">Rob Pike, “Origin of Go’s interface design”, golang-nuts</text>
+	</slide>
+	
+
+	
 	<slide bg="black" fg="white">
 		<text xp="50" yp="50" sp="9" align="center">Making Tools</text>
 	</slide>
@@ -859,26 +862,25 @@ encoding/json</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<text xp="50" yp="50" sp="6" align="center">Reducing the distance from
-the idea to the picture</text>
+		<text xp="10" yp="60" sp="5" wp="60" type="block">Reducing the distance from the idea to the picture</text>
 	</slide>
 	
 	<slide>
-		<image xp="70" yp="51" width="600" height="500" name="at.jpg"/>
-		<image xp="20" yp="50" width="485" height="500" name="picasso.png"/>
+		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="picasso-hires.png"/>
+		<image xp="70" yp="51" width="1835" height="1460" scale="45" name="alan-turing.jpg"/>
 	</slide>
 	
 	<slide>
-		<image xp="70" yp="51" width="600" height="500" name="at.jpg"/>
-		<image xp="20" yp="50" width="485" height="500" name="picasso.png"/>
-		<text xp="20" yp="10" sp="5" align="right">Pic</text>
-		<text xp="20" yp="10" sp="5"  color="gray">asso</text>
-		<text xp="70" yp="10" sp="5" align="right">Tur</text>
-		<text xp="70" yp="10" sp="5" color="gray">ing</text>
+		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="picasso-hires.png"/>
+		<image xp="70" yp="51" width="1835" height="1460" scale="45" name="alan-turing.jpg"/>
+		<text xp="30" yp="5" sp="5" align="right">Pic</text>
+		<text xp="30" yp="5" sp="5"  color="gray">asso</text>
+		<text xp="70" yp="5" sp="5" align="right">Tur</text>
+		<text xp="70" yp="5" sp="5" color="gray">ing</text>
 	</slide>
 	
-	<slide>
-		<text xp="25" yp="80" sp="7">Thank you</text>
+	<slide fg="rgb(100,100,100)">
+		<text xp="25" yp="80" sp="7" color="black">Thank you</text>
 		<image name="100-GitHub-Mark.png"		width="75" height="75" xp="15" yp="65" />
 		<image name="100-Twitter_logo_blue.png" width="74" height="60" xp="15" yp="55" />
 		<image name="100-gmail-logo-2013.png"	width="75" height="75" xp="15" yp="45" />
@@ -886,12 +888,12 @@ the idea to the picture</text>
 		<image name="100-speakerdeck.png"		width="60" height="60" xp="15" yp="25" />
 		<image name="blogger.png"		        width="60" height="60" xp="15" yp="15" />
 	
-		<text xp="25" yp="63" sp="4" color="rgb(100,100,100)">github.com/ajstarks</text>
-		<text xp="25" yp="53" sp="4" color="rgb(100,100,100)">@ajstarks</text>
-		<text xp="25" yp="43" sp="4" color="rgb(100,100,100)">ajstarks@gmail.com</text>
-		<text xp="25" yp="33" sp="4" color="rgb(100,100,100)">flickr.com/photos/ajstarks</text>
-		<text xp="25" yp="23" sp="4" color="rgb(100,100,100)">speakerdeck.com/ajstarks</text>
-		<text xp="25" yp="13" sp="4" color="rgb(100,100,100)">mindchunk.blogspot.com</text>
+		<text xp="25" yp="63" sp="4">github.com/ajstarks</text>
+		<text xp="25" yp="53" sp="4">@ajstarks</text>
+		<text xp="25" yp="43" sp="4">ajstarks@gmail.com</text>
+		<text xp="25" yp="33" sp="4">flickr.com/photos/ajstarks</text>
+		<text xp="25" yp="23" sp="4">speakerdeck.com/ajstarks</text>
+		<text xp="25" yp="13" sp="4">mindchunk.blogspot.com</text>
 	</slide>
 
 </deck>
