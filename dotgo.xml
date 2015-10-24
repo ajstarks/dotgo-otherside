@@ -685,34 +685,31 @@ Gate C31C
 5:35pm</text>
 	<text xp="35" yp="25" sp="6.25" color="red">Delayed</text>
 	</slide>
-
+	
 	<slide bg="black" fg="white">
-	<list xp="10" yp="85" sp="5.3" color="rgb(230,230,230)" lp="1.7">
-	  <li>AAPL</li>
-	  <li>AMZN</li>
-	  <li>FB</li>
-	  <li>GOOG</li>
-	  <li>MSFT</li>
-	</list>
-
-	<list xp="35" yp="85" sp="5.3" lp="1.7">
-	  <li>110.22</li>
-	  <li>294.74</li>
-	  <li>76.45</li>
-	  <li>496.18</li>
-	  <li>46.35</li>
-	</list>
-
-	<list xp="60" yp="85" sp="5.3" color="rgb(136,195,38)" lp="1.7">
-	  <li>+0.97 (0.89%)</li>
-	  <li>+3.33 (1.14%)</li>
-	  <li color="red">-0.27 (0.35%)</li>
-	  <li>+3.63 (0.74%)</li>
-	  <li color="red">-0.24 (0.53%)</li>
-	</list>
-	<text xp="90" yp="10" sp="1.5" align="right">Closing Price, 2015-01-13</text>
-	</slide>
-
+		<text xp="7.00" yp="80.00" sp="5">AAPL</text>
+		<text align="end" xp="49.00" yp="80.00" sp="5">119.08</text>
+		<text align="end" xp="70.00" yp="80.00" sp="5" color="rgb(136,195,38)">3.58</text>
+		<text align="end" xp="91.00" yp="80.00" sp="5" color="rgb(136,195,38)">(3.10%)</text>
+		<text xp="7.00" yp="67.00" sp="5">AMZN</text>
+		<text align="end" xp="49.00" yp="67.00" sp="5">599.03</text>
+		<text align="end" xp="70.00" yp="67.00" sp="5" color="rgb(136,195,38)">35.12</text>
+		<text align="end" xp="91.00" yp="67.00" sp="5" color="rgb(136,195,38)">(6.23%)</text>
+		<text xp="7.00" yp="54.00" sp="5">FB</text>
+		<text align="end" xp="49.00" yp="54.00" sp="5">102.19</text>
+		<text align="end" xp="70.00" yp="54.00" sp="5" color="rgb(136,195,38)">2.52</text>
+		<text align="end" xp="91.00" yp="54.00" sp="5" color="rgb(136,195,38)">(2.53%)</text>
+		<text xp="7.00" yp="41.00" sp="5">GOOG</text>
+		<text align="end" xp="49.00" yp="41.00" sp="5">702.00</text>
+		<text align="end" xp="70.00" yp="41.00" sp="5" color="rgb(136,195,38)">50.21</text>
+		<text align="end" xp="91.00" yp="41.00" sp="5" color="rgb(136,195,38)">(7.70%)</text>
+		<text xp="7.00" yp="28.00" sp="5">MSFT</text>
+		<text align="end" xp="49.00" yp="28.00" sp="5">52.87</text>
+		<text align="end" xp="70.00" yp="28.00" sp="5" color="rgb(136,195,38)">4.84</text>
+		<text align="end" xp="91.00" yp="28.00" sp="5" color="rgb(136,195,38)">(10.08%)</text>
+		<text  xp="7.00" yp="5.00" sp="2">2015-10-24 11:56:35</text>
+	</slide>	
+	
 	<slide>
 		<text xp="7.5" yp="50" align="center" color="maroon" sp="5">go</text>
 		<text xp="15.00" yp="95.00" sp="2.0">build</text>
