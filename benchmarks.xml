@@ -10,14 +10,4 @@
 	   <bitem value="4296.7" name="NVIDIA Shield Tablet"/>
 	   <bitem value="5028.2" name="Apple iPad Air"/>
 	</bdata>
-	<bdata scale="0,2000,500" 
-		title="WebXPRT (overall score)">
-	   <bitem value="1728" name="Lenovo Yoga 3 Pro"/>
-	   <bitem value="1235" name="ASUS Zenbook UX205"/>
-	   <bitem color="steelblue" value="1044" name="12-inch MacBook"/>
-	   <bitem value="688" name="Apple iPad Air 2"/>
-	   <bitem value="557" name="NVIDIA Shield Tablet"/>
-	   <bitem value="549" name="Google Nexus 9"/>
-	   <bitem value="537" name="Apple iPad Air"/>
-	</bdata>
 </barchart>

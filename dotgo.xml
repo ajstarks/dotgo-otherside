@@ -101,14 +101,14 @@
 	</slide>
 	
 	<slide>
-		<text xp="28" yp="70" sp="3" align="right">Scale</text>
-		<text xp="42.5" yp="50" sp="3" align="right">Roundrect</text>
-		<text xp="57.5" yp="48" sp="3" align="center">Circle</text>
-		<text xp="40" yp="25" sp="3" >Line</text>
-		<text xp="63" yp="25" sp="3" align="center">Rect</text>
-		<text xp="75" yp="55" sp="3" align="center">Line</text>
-		<text xp="63" yp="37" sp="3" align="center">Arc</text>
-		<text xp="50" yp="65" sp="3">fill:rgb(164,198,57)</text>
+		<text xp="28" yp="70" sp="4" align="right">Scale</text>
+		<text xp="42.5" yp="50" sp="4" align="right">Roundrect</text>
+		<text xp="57.5" yp="48" sp="4" align="center">Circle</text>
+		<text xp="40" yp="20" sp="4" >Line</text>
+		<text xp="63" yp="20" sp="4" align="center">Rect</text>
+		<text xp="75" yp="55" sp="4" align="center">Line</text>
+		<text xp="63" yp="37" sp="4" align="center">Arc</text>
+		<text xp="50" yp="65" sp="4">fill:rgb(164,198,57)</text>
 		<image xp="50" yp="50" width="877" height="877" name="android.png"/>
 	</slide>
 
@@ -143,12 +143,12 @@
 	
 	
 	<slide>
-		<text xp="5" yp="85" sp="3">http://ajstarks.org:1958/pacman/?angle=20</text>
-		<image xp="85" yp="85" width="256" height="256" name="pacman20.png"/>
-		<text xp="5" yp="50" sp="3">http://ajstarks.org:1958/pacman/?angle=40</text>
-		<image xp="85" yp="50" width="256" height="256" name="pacman40.png"/>	
-		<text xp="5" yp="15" sp="3">http://ajstarks.org:1958/pacman/?angle=70</text>
-		<image xp="85" yp="15" width="256" height="256" name="pacman70.png"/>
+		<text xp="5" yp="85" sp="5">/pacman/?angle=20</text>
+		<image xp="70" yp="85" width="256" height="256" name="pacman20.png"/>
+		<text xp="5" yp="50" sp="5">/pacman/?angle=40</text>
+		<image xp="70" yp="50" width="256" height="256" name="pacman40.png"/>	
+		<text xp="5" yp="15" sp="5">/pacman/?angle=70</text>
+		<image xp="70" yp="15" width="256" height="256" name="pacman70.png"/>
 	</slide>
 	
 	<slide bg="rgb(127,127,127)" fg="white">
@@ -187,9 +187,9 @@
 	</slide>
 	
 	<slide>
-		<text xp="50" yp="90" sp="3" align="center">barchart -showdata -showtitle benchmarks.xml</text>
-		<text xp="2" yp="80" sp="1" type="code" wp="45" file="benchmarks.xml"/>
-		<image xp="71" yp="50" width="2246" height="1560" scale="45" name="barchart.png"/>
+		<!-- <text xp="50" yp="90" sp="3" align="center">barchart -showdata -showtitle benchmarks.xml</text> -->
+		<text xp="25" yp="95" sp="1.4" type="code" wp="65" file="benchmarks.xml"/>
+		<image xp="50" yp="25" width="2720" height="1140" scale="40" name="barchart.png"/>
 	</slide>
 	
 	<slide bg="rgb(127,127,127)" fg="white">
@@ -199,7 +199,7 @@
 	<slide><image xp="50" yp="50" width="2018" height="1610" scale="67" name="benchviz.png"/></slide>
 	<!-- <slide><image xp="50" yp="50" width="2640" height="1638" scale="67" name="/Users/ajstarks/Desktop/bg2.png"/></slide> -->
 	<slide><image xp="50" yp="50" width="2716" height="1596" scale="67" name="bulletgraph.png"/></slide>
-	<slide><image xp="50" yp="50" width="2246" height="1560" scale="67" name="barchart.png"/></slide>
+	<slide><image xp="50" yp="50" width="2720" height="1140" scale="67" name="barchart.png"/></slide>
 	<slide><image xp="50" yp="50" width="2166" height="1626" scale="67" name="compx.png"/></slide>
 	<slide><image xp="50" yp="50" width="2146" height="1594" scale="67" name="pmap.png"/></slide>
 	<slide><image xp="50" yp="50" width="2144" height="1610" scale="67" name="quad.png"/></slide>
