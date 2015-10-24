@@ -206,7 +206,7 @@
 	<slide><image xp="50" yp="50" width="1622" height="1610" scale="67" name="rr.png"/></slide>
 	<slide><image xp="50" yp="50" width="2100" height="1628" scale="67" name="servers.png"/></slide>
 	<slide><image xp="50" yp="50" width="2132" height="1588" scale="67" name="svgplot.png"/></slide>
-	<slide><image xp="50" yp="50" width="2148" height="1594" scale="67" name="timeline.png"/></slide>
+	<slide><image xp="50" yp="50" width="1920" height="1080"  name="stockproduct.png"/></slide>
 	<slide><image xp="50" yp="50" width="2138" height="1596" scale="67" name="tweetfreq.png"/></slide>
 	
 	<!-- <slide><image xp="50" yp="50" width="1591" height="998" name="bv-combo.png"/></slide> -->
@@ -285,7 +285,7 @@
 		<image xp="50" yp="25" width="1920" height="1080" scale="25" name="hellovg.raw.png"/>
 		<image xp="80" yp="25" width="1920" height="1080" scale="25" name="slide4.raw.png"/>
 		
-		<text sp="5" xp="50" yp="5" align="center">openvg</text>
+		<text sp="5" xp="50" yp="4" align="center">openvg</text>
 
 	</slide>
 	
