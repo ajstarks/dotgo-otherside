@@ -1,12 +1,3 @@
-package main
-
-import (
-	"github.com/ajstarks/svgo"
-	"log"
-	"net/http"
-	"strings"
-)
-
 const defaultstyle = "fill:rgb(127,0,0)"
 
 func main() {
@@ -16,7 +7,6 @@ func main() {
 		log.Println("ListenAndServe:", err)
 	}
 }
-
 func circle(w http.ResponseWriter, req *http.Request) {
 	w.Header().Set("Content-Type", "image/svg+xml")
 	s := svg.New(w)
@@ -25,7 +15,6 @@ func circle(w http.ResponseWriter, req *http.Request) {
 	s.Circle(250, 250, 125, shapestyle(req.URL.Path))
 	s.End()
 }
-
 func shapestyle(path string) string {
 	i := strings.LastIndex(path, "/") + 1
 	if i > 0 && len(path[i:]) > 0 {

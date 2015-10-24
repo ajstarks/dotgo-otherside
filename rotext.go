@@ -1,10 +1,3 @@
-package main
-
-import (
-    "os"
-    "github.com/ajstarks/svgo"
-)
-
 func main() {
 
     width := 200

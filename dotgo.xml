@@ -36,11 +36,13 @@
 	<slide>
 		<image xp="50" yp="50" width="1336" height="729" name="svgopher.png"/>
 	</slide>
-	
+
+<!--	
 	<slide>
 		<image name="svgdef.png" xp="50" yp="50" width="3650" height="2737" scale="40" />
 	</slide>
-	
+-->
+
 	<slide>
 		<text xp="15" yp="90" sp="2.5" align="center" color="gray">Element</text>
 		<text xp="40" yp="90" sp="2.5" align="center" color="gray">Arguments</text>
@@ -118,7 +120,7 @@
 	<slide>
 		<image xp="75" yp="70" width="1006" height="958" scale="50" name="websvg-red.png"/>
 		<image xp="75" yp="20" width="998" height="956" scale="50" name="websvg-green.png"/>
-		<text xp="5" yp="96" sp="1.1" font="mono" file="websvg.go"/>
+		<text xp="5" yp="96" sp="1.6" font="mono" file="websvg.go"/>
 	</slide>
 	
 	<slide>
@@ -262,14 +264,14 @@
 	</slide>
 	-->
 	<slide>
-		<image xp="85" yp="80" width="200" height="200" name="15.png"/>
-		<image xp="85" yp="50" width="200" height="200" name="30.png"/>
-		<image xp="85" yp="20" width="200" height="200" name="45.png"/>
-		<text xp="70" yp="80" sp="2.5" color="rgb(0,0,100)" align="center">ti = 15</text>
-		<text xp="70" yp="50" sp="2.5" color="rgb(0,0,100)" align="center">ti = 30</text>
-		<text xp="70" yp="20" sp="2.5" color="rgb(0,0,100)" align="center">ti = 45</text>
-		<text xp="5" yp="95" sp="1.3" font="mono" file="rotext.go"/>
-		<rect xp="13" yp="54" wp="12" hp="3" color="yellow" opacity="30"/>
+		<image xp="90" yp="80" width="200" height="200" name="15.png"/>
+		<image xp="90" yp="50" width="200" height="200" name="30.png"/>
+		<image xp="90" yp="20" width="200" height="200" name="45.png"/>
+		<text xp="75" yp="80" sp="3"  align="center">ti = 15</text>
+		<text xp="75" yp="50" sp="3"  align="center">ti = 30</text>
+		<text xp="75" yp="20" sp="3"  align="center">ti = 45</text>
+		<text xp="2" yp="95" sp="1.75" font="mono" file="rotext.go"/>
+		<rect xp="13" yp="70" wp="15" hp="5" color="yellow" opacity="40"/>
 	</slide>
 		
 	<slide>
@@ -492,20 +494,20 @@
 	<slide>
 	  <text xp="5" yp="47.5" sp="4">Process</text>
 	  <polygon xc="32 35 32" yc="52 50 48" color="gray"/>
-	  <text xp="50" yp="47.5" sp="4" align="center">deck code</text>
-	  <text xp="75" yp="72.5" sp="4">interactive</text>
-	  <text xp="75" yp="47.5" sp="4">PDF</text>
-	  <text xp="75" yp="22.5" sp="4">SVG</text>
+	  <text xp="50" yp="47.5" sp="4" align="center" color="white">deck code</text>
+	  <text xp="75" yp="72.5" sp="4" color="white">interactive</text>
+	  <text xp="75" yp="47.5" sp="4" color="white">PDF</text>
+	  <text xp="75" yp="22.5" sp="4" color="white">SVG</text>
 
 	  <line xp1="25" yp1="50" xp2="35" yp2="50" sp=".25" color="rgb(127,127,127)"/>
 	  <line xp1="65" yp1="57.5" xp2="70" yp2="75" sp=".25" color="rgb(0,0,127)" />
 	  <line xp1="65" yp1="50" xp2="70" yp2="50" sp=".25" color="rgb(127,0,0)" />
 	  <line xp1="65" yp1="42.5" xp2="70" yp2="25" sp=".25" color="rgb(0,127,0)"/>
 
-	  <rect xp="50" yp="50" wp="30" hp="15" color="black" opacity="20" />
-	  <rect xp="85" yp="75" wp="30" hp="15" color="rgb(0,0,127)" opacity="20" />
-	  <rect xp="85" yp="50" wp="30" hp="15" color="rgb(127,0,0)" opacity="20" />
-	  <rect xp="85" yp="25" wp="30" hp="15" color="rgb(0,127,0)" opacity="20" />
+	  <rect xp="50" yp="50" wp="30" hp="15" color="black"/>
+	  <rect xp="85" yp="75" wp="30" hp="15" color="rgb(0,0,127)"  />
+	  <rect xp="85" yp="50" wp="30" hp="15" color="rgb(127,0,0)"  />
+	  <rect xp="85" yp="25" wp="30" hp="15" color="rgb(0,127,0)"/>
 	</slide>
 	
 	
@@ -879,6 +881,7 @@ We were just trying to get something that worked for us.</text>
 		<text xp="70" yp="5" sp="5" color="gray">ing</text>
 	</slide>
 	
+<!--
 	<slide fg="rgb(100,100,100)">
 		<text xp="25" yp="80" sp="7" color="black">Thank you</text>
 		<image name="100-GitHub-Mark.png"		width="75" height="75" xp="15" yp="65" />
@@ -895,5 +898,5 @@ We were just trying to get something that worked for us.</text>
 		<text xp="25" yp="23" sp="4">speakerdeck.com/ajstarks</text>
 		<text xp="25" yp="13" sp="4">mindchunk.blogspot.com</text>
 	</slide>
-
+-->
 </deck>
