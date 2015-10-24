@@ -273,6 +273,10 @@
 		<text xp="2" yp="95" sp="1.75" font="mono" file="rotext.go"/>
 		<rect xp="13" yp="70" wp="15" hp="5" color="yellow" opacity="40"/>
 	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" width="1920" height="1080" name="refcard.raw.png"/>
+	</slide>
 		
 	<slide>
 		<image xp="10" yp="85" width="1920" height="1080" scale="25" name="refcard.raw.png"/>
@@ -286,70 +290,54 @@
 		<image xp="10" yp="25" width="1920" height="1080" scale="25" name="slide1.raw.png"/>
 		<image xp="50" yp="25" width="1920" height="1080" scale="25" name="hellovg.raw.png"/>
 		<image xp="80" yp="25" width="1920" height="1080" scale="25" name="slide4.raw.png"/>
-		
-		<text sp="5" xp="50" yp="4" align="center">openvg</text>
-
 	</slide>
 	
 	<slide>
 		<image xp="70" yp="70" width="1920" height="1080" scale="50" name="hellovg.raw.png"/>
 		<text xp="4" yp="90" sp="1.4" wp="50" font="mono" file="hwopenvg.go"/>
 	</slide>
-
-	<slide>
-		<text  xp="12" yp="95" sp="3">Openvg Functions</text>
-		<text  xp="12" yp="85" sp="2">Circle</text>
-		<text  xp="12" yp="79" sp="2">Ellipse</text>
-		<text  xp="12" yp="73" sp="2">Rect</text>
-		<text  xp="12" yp="67" sp="2">Roundrect</text>
-		<text  xp="12" yp="61" sp="2">Line</text>
-		<text  xp="12" yp="55" sp="2">Polyline</text>
-		<text  xp="12" yp="49" sp="2">Polygon</text>
-		<text  xp="12" yp="43" sp="2">Arc</text>
-		<text  xp="12" yp="37" sp="2">Qbezier</text>
-		<text  xp="12" yp="31" sp="2">Cbezier</text>
-		<text  xp="12" yp="25" sp="2">Image</text>
-		<text  xp="12" yp="19" sp="2">Text</text>
-		<text  xp="12" yp="13" sp="2">TextMid</text>
-		<text  xp="12" yp="7" sp="2">TextEnd</text>
-		
-		<text  xp="25" yp="85" sp="2" color="gray">(x, y, r VGfloat)</text>
-		<text  xp="25" yp="79" sp="2" color="gray">(x, y, w, h VGfloat)</text>
-		<text  xp="25" yp="73" sp="2" color="gray">(x, y, w, h VGfloat)</text>
-		<text  xp="25" yp="67" sp="2" color="gray">(x, y, w, h, rw, rh VGfloat)</text>
-		<text  xp="25" yp="61" sp="2" color="gray">(x1, y1, x2, y2 VGfloat)</text>
-		<text  xp="25" yp="55" sp="2" color="gray">(x, y []VGfloat)</text>
-		<text  xp="25" yp="49" sp="2" color="gray">(x, y []VGfloat)</text>
-		<text  xp="25" yp="43" sp="2" color="gray">(x, y, w, h, sa, aext VGfloat)</text>
-		<text  xp="25" yp="37" sp="2" color="gray">(sx, sy, cx, cy, ex, ey VGfloat)</text>
-		<text  xp="25" yp="31" sp="2" color="gray">(sx, sy, cx, cy, px, py, ex, ey VGfloat)</text>
-		<text  xp="25" yp="25" sp="2" color="gray">(x, y VGfloat, w, h int, s string)</text>
-		<text  xp="25" yp="19" sp="2" color="gray">(x, y VGfloat, s string, font string, size int)</text>
-		<text  xp="25" yp="13" sp="2" color="gray">(x, y VGfloat, s string, font string, size int)</text>
-		<text  xp="25" yp="7" sp="2" color="gray">(x, y VGfloat, s string, font string, size int)</text>
-
 	
-		<ellipse xp="5" yp="86" wp="2.5" hr="100" color="maroon"/>
-		<ellipse xp="5" yp="80" wp="2.5" hr="50" color="maroon"/>
-		<rect xp="5" yp="75" wp="2.5" hr="50" color="maroon"/>
-		<rect xp="5" yp="67" wp="2.5" hr="50" color="maroon"/>
-		<line xp1="2.5" yp1="62" xp2="7.5" yp2="62" color="maroon"/>
-		<line xp1="2.5" yp1="55" xp2="5" yp2="57.5" color="maroon"/>
-		<line xp1="5" yp1="57.5" xp2="7.5" yp2="55" color="maroon"/>
-		<polygon xc="2.5 5 7.5" yc="50 52 50" color="maroon"/>
-		<arc xp="5" yp="42" wp="5" hp="5" a1="0" a2="180" color="maroon"/>
-		<curve xp1="2.5" yp1="37" xp2="3" yp2="45" xp3="7.5" yp3="37" color="maroon"/>
+	<slide>
+		<text xp="2.4" yp="90" sp="4">OpenVG Functions</text>
+		<list xp="2.4" yp="75" sp="2.5" color="maroon">
+			<li>Circle</li>
+			<li>Ellipse</li>
+			<li>Rect</li>
+			<li>Roundrect</li>
+			<li>Line</li>
+			<li>Polyline</li>
+			<li>Polygon</li>
+		</list>
 		
-		<curve xp1="2.5"  yp1="32"   xp2="3"  yp2="42"  xp3="5"   yp3="32" color="maroon"/>
-		<curve xp1="5"    yp1="32"   xp2="6"  yp2="30"  xp3="7.5" yp3="35" color="maroon"/>
-
-		<image xp="5" yp="27" width="256" height="199" scale="40" name="ajs.png"/>
-		<text xp="5" yp="19" sp="1">ABC</text>
-		<text xp="5" yp="13" sp="1" align="center">ABC</text>
-		<text xp="5" yp="7" sp="1" align="end">ABC</text>
-		<ellipse xp="5" yp="19" wp=".5" hr="100" color="maroon" />
-		<ellipse xp="5" yp="13" wp=".5" hr="100" color="maroon" />
-		<ellipse xp="5" yp="7" wp=".5" hr="100" color="maroon" />
+		<list xp="15" yp="75" sp="2.5" color="gray">
+			<li>(x, y, r VGfloat)</li>
+			<li>(x, y, w, h VGfloat)</li>
+			<li>(x, y, w, h VGfloat)</li>
+			<li>(x, y, w, h, rw, rh VGfloat)</li>
+			<li>(x1, y1, x2, y2 VGfloat)</li>
+			<li>(x, y []VGfloat)</li>
+			<li>(x, y []VGfloat)</li>
+		</list>
+		
+		<list xp="45" yp="75" sp="2.5" color="maroon">
+			<li>Arc</li>
+			<li>Qbezier</li>
+			<li>Cbezier</li>
+			<li>Image</li>
+			<li>Text</li>
+			<li>TextMid</li>
+			<li>TextEnd</li>
+		</list>
+		
+		<list xp="55" yp="75" sp="2.5" color="gray">
+			<li>(x, y, w, h, sa, aext VGfloat)</li>
+			<li>(sx, sy, cx, cy, ex, ey VGfloat)</li>
+			<li>(sx, sy, cx, cy, px, py, ex, ey VGfloat)</li>
+			<li>(x, y VGfloat, w, h int, s string)</li>
+			<li>(x, y VGfloat, s, font string, size int)</li>
+			<li>(x, y VGfloat, s, font string, size int)</li>
+			<li>(x, y VGfloat, s, font string, size int)</li>
+		</list>
 	</slide>
 	
 	<slide bg="white" fg="rgb(50,50,50)">
@@ -509,30 +497,74 @@
 	  <rect xp="85" yp="50" wp="30" hp="15" color="rgb(127,0,0)"  />
 	  <rect xp="85" yp="25" wp="30" hp="15" color="rgb(0,127,0)"/>
 	</slide>
-	
+
+	<slide>
+		<text xp="2.4" yp="90" sp="4">deck/generate init, start/end</text>
+		<list xp="2.4" yp="75" sp="2.4" color="maroon">
+			<li>NewSlides</li>
+			<li>(*Deck) StartDeck</li>
+			<li>(*Deck) EndDeck</li>
+			<li>(*Deck) StartSlide</li>
+			<li>(*Deck) EndSlide</li>
+		</list>
+		
+		<list xp="25" yp="75" sp="2.4" color="gray">
+			<li>(where io.Writer, w, h int) *Deck</li>
+			<li>()</li>
+			<li>()</li>
+			<li>(colors ...string)</li>
+			<li>()</li>
+		</list>
+	</slide>
+
 	
 	<slide>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="95" sp="2">NewSlides</text><text font="sans" color="rgb(127,127,127)" xp="25" yp="95" sp="2">(where io.Writer, w, h int)</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="90" sp="2">StartDeck()/EndDeck()</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="85" sp="2">StartSlide</text><text font="sans" color="rgb(127,127,127)" xp="25" yp="85" sp="2">(colors ...string)</text>
-		<text font="sans" color="rgb(127,0,0)" xp="45" yp="85" sp="2">EndSlide()</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="75" sp="2">Arc</text><text font="sans" color="rgb(127,127,127)"		xp="25" yp="75" sp="2">(x, y, w, h, size, a1, a2 float64, color string, opacity ...float64)</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="70" sp="2">Circle</text><text font="sans" color="rgb(127,127,127)"	xp="25" yp="70" sp="2">(x, y, w float64, color string, opacity ...float64)</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="65" sp="2">Code</text><text font="sans" color="rgb(127,127,127)"		xp="25" yp="65" sp="2">(x, y float64, s string, size, margin float64, color string, opacity ...float64)</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="60" sp="2">Curve</text><text font="sans" color="rgb(127,127,127)"	xp="25" yp="60" sp="2">(x1, y1, x2, y2, x3, y3, size float64, color string, opacity ...float64)</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="55" sp="2">Ellipse</text><text font="sans" color="rgb(127,127,127)"	xp="25" yp="55" sp="2">(x, y, w, h float64, color string, opacity ...float64)</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="50" sp="2">Image</text><text font="sans" color="rgb(127,127,127)"	xp="25" yp="50" sp="2">(x, y float64, w, h int, name string)</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="45" sp="2">Line</text><text font="sans" color="rgb(127,127,127)"		xp="25" yp="45" sp="2">(x1, y1, x2, y2, size float64, color string, opacity ...float64)</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="40" sp="2">List</text><text font="sans" color="rgb(127,127,127)"		xp="25" yp="40" sp="2">(x, y, size float64, items []string, ltype, font, color string)</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="35" sp="2">Polygon</text><text font="sans" color="rgb(127,127,127)"	xp="25" yp="35" sp="2">(x, y []float64, color string, opacity ...float64)</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="30" sp="2">Rect</text><text font="sans" color="rgb(127,127,127)"		xp="25" yp="30" sp="2">(x, y, w, h float64, color string, opacity ...float64)</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="25" sp="2">Square</text><text font="sans" color="rgb(127,127,127)"	xp="25" yp="25" sp="2">(x, y, w float64, color string, opacity ...float64)</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="20" sp="2">Text</text><text font="sans" color="rgb(127,127,127)"		xp="25" yp="20" sp="2">(x, y float64, s, font string, size float64, color string, opacity ...float64)</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="15" sp="2">TextBlock</text><text font="sans" color="rgb(127,127,127)" xp="25" yp="15" sp="2">(x, y float64, s, font string, size, margin float64, color string, opacity ...float64)</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="10" sp="2">TextEnd</text><text font="sans" color="rgb(127,127,127)"	xp="25" yp="10" sp="2">(x, y float64, s, font string, size float64, color string, opacity ...float64)</text>
-		<text font="sans" color="rgb(127,0,0)" xp="10" yp="5" sp="2">TextMid</text><text font="sans" color="rgb(127,127,127)"	xp="25" yp="5" sp="2">(x, y float64, s, font string, size float64, color string, opacity ...float64)</text>
-	</slide>
+		<text xp="2.4" yp="90" sp="4">deck/generate text and list functions</text>
+		<list xp="2.4" yp="75" sp="2.4" color="maroon">
+			<li>Text</li>
+			<li>TextBlock</li>
+			<li>TextMid</li>
+			<li>TextEnd</li>
+			<li>Code</li>
+			<li>List</li>
+		</list>
 		
+		<list xp="15" yp="75" sp="2.4" color="gray">
+			<li>(x, y float64, s, font string, size float64, color string, opacity ...float64)</li>
+			<li>(x, y float64, s, font string, size, margin float64, color string, opacity ...float64)</li>
+			<li>(x, y float64, s, font string, size float64, color string, opacity ...float64)</li>
+			<li>(x, y float64, s, font string, size float64, color string, opacity ...float64)</li>
+			<li>(x, y float64, s string, size, margin float64, color string, opacity ...float64)</li>
+			<li>(x, y, size float64, items []string, ltype, font, color string)</li>
+		</list>
+	</slide>
+	
+	<slide>
+		<text xp="2.4" yp="90" sp="4">deck/generate graphic functions</text>
+		<list xp="2.4" yp="75" sp="2.4" color="maroon">
+			<li>Image</li>
+			<li>Arc</li>
+			<li>Circle</li>
+			<li>Ellipse</li>
+			<li>Square</li>
+			<li>Rect</li>
+			<li>Curve</li>
+			<li>Line</li>
+			<li>Polygon</li>
+		</list>
+		<list xp="15" yp="75" sp="2.4" color="gray">
+			<li>(x, y float64, w, h int, name string)</li>
+			<li>(x, y, w, h, size, a1, a2 float64, color string, opacity ...float64)</li>
+			<li>(x, y, w float64, color string, opacity ...float64)</li>
+			<li>(x, y, w, h float64, color string, opacity ...float64)</li>
+			<li>(x, y, w float64, color string, opacity ...float64)</li>
+			<li>(x, y, w, h float64, color string, opacity ...float64)</li>
+			<li>(x1, y1, x2, y2, x3, y3, size float64, color string, opacity ...float64)</li>
+			<li>(x1, y1, x2, y2, size float64, color string, opacity ...float64)</li>
+			<li>(x, y []float64, color string, opacity ...float64)</li>
+		</list>
+	</slide>
+
 	<slide>
 		<text xp="7" yp="97" sp="1" font="mono" file="gen.go"/>
 		<image xp="65" yp="62" width="1431" height="807" scale="25" name="gen1.png"/>
@@ -562,7 +594,7 @@
 		<image xp="50" yp="70" width="1400" height="1050" scale="40" name="section.png"/>
 		<image xp="80" yp="70" width="1400" height="1050" scale="40" name="eames.png"/>
 		<text xp="50" yp="10" sp="3" align="center">capgen slides.txt | pdfdeck ... > slides.pdf</text>
-		<text xp="5" yp="40" sp="1.6" file="slides.txt"/>
+		<text xp="2" yp="40" sp="1.8" file="slides.txt"/>
 	</slide>
 
 	<slide bg="rgb(127,127,127)" fg="white">
@@ -751,14 +783,14 @@ Gate C31C
 		<rect xp="75" yp="75" wp="50" hp="50" color="green"/>
 		<rect xp="25" yp="25" wp="50" hp="50" color="red"/>
 		<rect xp="75" yp="25" wp="50" hp="50" color="purple"/>
-		<text xp="25" yp="75" sp="4" color="white" align="center" font="serif">Can't buy me love</text>
-		<text xp="75" yp="75" sp="4" color="white" align="center" font="serif">Bliss</text>
-		<text xp="25" yp="25" sp="4" color="white" align="center" font="serif">Misery</text>
-		<text xp="75" yp="25" sp="4" color="white" align="center" font="serif">We have each other</text>
-		<text xp="98" yp="50" sp="2" align="right">Better</text>
-		<text xp="2" yp="50"  sp="2" align="left">Worse</text>
-		<text xp="50" yp="95" sp="2" align="center">Rich</text>
-		<text xp="50" yp="5"  sp="2" align="center">Poor</text>
+		<text xp="25" yp="75" sp="5" color="white" align="center" font="serif">Can't buy me love</text>
+		<text xp="75" yp="75" sp="5" color="white" align="center" font="serif">Bliss</text>
+		<text xp="25" yp="25" sp="5" color="white" align="center" font="serif">Misery</text>
+		<text xp="75" yp="25" sp="5" color="white" align="center" font="serif">We have each other</text>
+		<text xp="98" yp="50" sp="2.5" align="right">Better</text>
+		<text xp="2" yp="50"  sp="2.5" align="left">Worse</text>
+		<text xp="50" yp="95" sp="2.5" align="center">Rich</text>
+		<text xp="50" yp="5"  sp="2.5" align="center">Poor</text>
 	</slide>
  
 	
