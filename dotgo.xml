@@ -454,17 +454,17 @@
 	</slide>
 
 	<slide bg="white" fg="rgb(50,50,50)">
-		<text xp="50" yp="10" sp="4" align="center">Percentage-based layout</text>
-		<text xp="10" yp="50" sp="3" color="rgb(127,0,0)">Hello</text>
-		<image xp="50" yp="50" width="360" height="203" name="desert2.jpg"/>
+		<text xp="50" yp="5" sp="4" align="center">Percentage-based layout</text>
+		<text xp="10" yp="50" sp="4" color="rgb(127,0,0)">Hello</text>
+		<image xp="50" yp="50" width="640" height="480" scale="75" name="follow.jpg"/>
 		<rect xp="90" yp="50" wp="10" hr="100" color="rgb(127,0,0)" opacity="50"/>
-		<text xp="10" yp="70" sp="3"  align="center">10%, 50%</text>
-		<text xp="50" yp="70" sp="3"  align="center">50%, 50%</text>
-		<text xp="90" yp="70" sp="3"  align="center">90%, 50%</text>
+		<text xp="10" yp="80" sp="4"  align="center">10%, 50%</text>
+		<text xp="50" yp="80" sp="4"  align="center">50%, 50%</text>
+		<text xp="90" yp="80" sp="4"  align="center">90%, 50%</text>
 
-		<line xp1="10" yp1="70" xp2="10" yp2="50" sp="0.1" color="gray"/>
-		<line xp1="50" yp1="70" xp2="50" yp2="50" sp="0.1" color="gray"/>
-		<line xp1="90" yp1="70" xp2="90" yp2="50" sp="0.1" color="gray"/>
+		<line xp1="10" yp1="80" xp2="10" yp2="50" sp="0.1" color="gray"/>
+		<line xp1="50" yp1="80" xp2="50" yp2="50" sp="0.1" color="gray"/>
+		<line xp1="90" yp1="80" xp2="90" yp2="50" sp="0.1" color="gray"/>
 
 		<ellipse xp="10" yp="50" wp="0.5" hr="100" color="gray"/>
 		<ellipse xp="50" yp="50" wp="0.5" hr="100" color="gray"/>
@@ -472,11 +472,9 @@
 	</slide>
 	
 	<slide bg="white" fg="rgb(50,50,50)">
-		<text xp="50" yp="90" sp="3" align="center">Scaling the canvas</text>
-		<image xp="25" yp="50" width="800" height="600" name="land.png"/>
-		<image xp="75" yp="50" width="600" height="800" name="port.png"/>
-		<text xp="25" yp="5" sp="2" align="center">Landscape</text>
-		<text xp="75" yp="5" sp="2" align="center">Portrait</text>
+		<image xp="25" yp="60" width="800" height="600" name="land.png" caption="Landscape"/>
+		<image xp="75" yp="60" width="600" height="800" name="port.png" caption="Portrait"/>
+		<text xp="50" yp="5" sp="4" align="center">Scaling the canvas</text>
 	</slide>
 	
 	<slide>
@@ -497,26 +495,6 @@
 	  <rect xp="85" yp="50" wp="30" hp="15" color="rgb(127,0,0)"  />
 	  <rect xp="85" yp="25" wp="30" hp="15" color="rgb(0,127,0)"/>
 	</slide>
-
-	<slide>
-		<text xp="2.4" yp="90" sp="4">deck/generate init, start/end</text>
-		<list xp="2.4" yp="75" sp="2.4" color="maroon">
-			<li>NewSlides</li>
-			<li>(*Deck) StartDeck</li>
-			<li>(*Deck) EndDeck</li>
-			<li>(*Deck) StartSlide</li>
-			<li>(*Deck) EndSlide</li>
-		</list>
-		
-		<list xp="25" yp="75" sp="2.4" color="gray">
-			<li>(where io.Writer, w, h int) *Deck</li>
-			<li>()</li>
-			<li>()</li>
-			<li>(colors ...string)</li>
-			<li>()</li>
-		</list>
-	</slide>
-
 	
 	<slide>
 		<text xp="2.4" yp="90" sp="4">deck/generate text and list functions</text>
