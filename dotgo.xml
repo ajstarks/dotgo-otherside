@@ -477,6 +477,50 @@
 		<text xp="50" yp="5" sp="4" align="center">Scaling the canvas</text>
 	</slide>
 	
+  <slide>
+	<text xp="5" yp="90" sp="4">Deck Web API</text>
+	<list xp="5" yp="80" sp="2" font="mono" color="rgb(127,0,0)">
+		<li>GET</li>
+		<li>GET</li>
+		<li>GET</li>
+		<li>POST</li>
+		<li>POST</li>
+		<li>POST</li>
+		<li>DELETE</li>
+		<li>POST</li>
+		<li>POST</li>
+		<li>POST</li>
+		<li>POST</li>
+	</list>
+	<list xp="15" yp="80" sp="2" font="mono" color="rgb(0,0,127)">
+		<li>/</li>
+		<li>/deck/</li>
+		<li>/deck/?filter=[type]</li>
+		<li>/deck/content.xml?cmd=1s</li>
+		<li>/deck/content.xml?cmd=stop</li>
+		<li>/deck/content.xml?slide=[num]</li>
+		<li>/deck/content.xml</li>
+		<li>/upload/ Deck:content.xml</li>
+		<li>/table/ Deck:content.txt</li>
+		<li>/table/?textsize=[size]</li>
+		<li>/media/ Media:content.mov</li>
+	</list>
+	<list xp="55" yp="80" sp="2">
+		<li>List the API</li>
+		<li>List the content on the server</li>
+		<li>List content filtered by deck, image, video</li>
+		<li>Play a deck with the specified duration</li>
+		<li>Stop playing a deck</li>
+		<li>Play deck starting at a slide number</li>
+		<li>Remove content</li>
+		<li>Upload content</li>
+		<li>Generate a table from a tab-separated list</li>
+		<li>Specify the text size of the table</li>
+		<li>Play the specified video</li>
+	</list>
+	<text xp="55" yp="90" sp="1" color="rgb(127,0,0)" font="mono">sex -dir [start dir] -listen [address:port] -maxupload [bytes]</text>
+  </slide>
+	
 	<slide>
 	  <text xp="5" yp="47.5" sp="4">Process</text>
 	  <polygon xc="32 35 32" yc="52 50 48" color="gray"/>
@@ -859,9 +903,7 @@ encoding/json</text>
 We were just trying to get something that worked for us.</text>
 		<text xp="10" yp="20" sp="3">Rob Pike, “Origin of Go’s interface design”, golang-nuts</text>
 	</slide>
-	
 
-	
 	<slide bg="black" fg="white">
 		<text xp="50" yp="50" sp="9" align="center">Making Tools</text>
 	</slide>
@@ -873,6 +915,21 @@ We were just trying to get something that worked for us.</text>
 	<slide bg="black" fg="white">
 		<text xp="10" yp="60" sp="5" wp="60" type="block">Reducing the distance from the idea to the picture</text>
 	</slide>
+	
+	<slide bg="black">
+		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="picasso-hires.png"/>
+		<image xp="70" yp="51" width="1835" height="1460" scale="45" name="alan-turing.jpg"/>
+	</slide>
+	
+	<slide bg="black" fg="white">
+		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="picasso-hires.png"/>
+		<image xp="70" yp="51" width="1835" height="1460" scale="45" name="alan-turing.jpg"/>
+		<text xp="30" yp="5" sp="5" align="right">Pic</text>
+		<text xp="30" yp="5" sp="5"  color="gray">asso</text>
+		<text xp="70" yp="5" sp="5" align="right">Tur</text>
+		<text xp="70" yp="5" sp="5" color="gray">ing</text>
+	</slide>
+
 	
 	<slide>
 		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="picasso-hires.png"/>
