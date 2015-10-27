@@ -891,7 +891,7 @@ encoding/json</text>
 	</slide>
 	
 	<slide bg="rgb(0,0,127)">
-		<image xp="50" yp="50" name="rsc-gmail.png" width="1300" height="376"/>
+		<image xp="50" yp="50" name="rsc-gmail-big.png" scale="70" width="2578" height="812"/>/
 	</slide>
 	
 	
