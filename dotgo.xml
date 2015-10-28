@@ -734,6 +734,30 @@ Gate C31C
 		<text  xp="7.00" yp="5.00" sp="2">2015-10-24 11:56:35</text>
 	</slide>	
 	
+	<slide bg="black" fg="white">
+		<text xp="7.00" yp="80.00" sp="5">AAPL</text>
+		<text align="end" xp="49.00" yp="80.00" sp="5">114.55</text>
+		<text align="end" xp="70.00" yp="80.00" sp="5" color="red">-0.73</text>
+		<text align="end" xp="91.00" yp="80.00" sp="5" color="red">(-0.63%)</text>
+		<text xp="7.00" yp="67.00" sp="5">AMZN</text>
+		<text align="end" xp="49.00" yp="67.00" sp="5">611.01</text>
+		<text align="end" xp="70.00" yp="67.00" sp="5" color="rgb(136,195,38)">2.40</text>
+		<text align="end" xp="91.00" yp="67.00" sp="5" color="rgb(136,195,38)">(0.39%)</text>
+		<text xp="7.00" yp="54.00" sp="5">FB</text>
+		<text align="end" xp="49.00" yp="54.00" sp="5">103.70</text>
+		<text align="end" xp="70.00" yp="54.00" sp="5" color="red">-0.07</text>
+		<text align="end" xp="91.00" yp="54.00" sp="5" color="red">(-0.07%)</text>
+		<text xp="7.00" yp="41.00" sp="5">GOOG</text>
+		<text align="end" xp="49.00" yp="41.00" sp="5">708.49</text>
+		<text align="end" xp="70.00" yp="41.00" sp="5" color="red">-4.29</text>
+		<text align="end" xp="91.00" yp="41.00" sp="5" color="red">(-0.60%)</text>
+		<text xp="7.00" yp="28.00" sp="5">MSFT</text>
+		<text align="end" xp="49.00" yp="28.00" sp="5">53.69</text>
+		<text align="end" xp="70.00" yp="28.00" sp="5" color="red">-0.56</text>
+		<text align="end" xp="91.00" yp="28.00" sp="5" color="red">(-1.03%)</text>
+		<text  xp="7.00" yp="5.00" sp="2">2015-10-28 00:39:19</text>
+	</slide>
+
 	<slide>
 		<text xp="7.5" yp="50" align="center" color="maroon" sp="5">go</text>
 		<text xp="15.00" yp="95.00" sp="2.0">build</text>
