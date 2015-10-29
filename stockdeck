@@ -1,0 +1,40 @@
+#!/bin/sh
+# Convert JSON stock quotes to Deck markup
+# Data from http://finance.yahoo.com/webservice/v1/symbols/<SYMBOL-LIST>/quote?format=json&view=detail
+#
+timestamp=`date '+%Y-%m-%d %H:%M:%S'`
+awk -v ts="$timestamp" '
+BEGIN {
+	left=7
+	cintr=21
+	top=80
+	rintr=13
+	size=5
+	footx = left
+	footy = 5
+	footsize = 2
+	print "<deck><slide bg=\"black\" fg=\"white\">"
+}
+$1 ~ /"symbol"/			{sym[ns++]     = substr($3,2,length($3)-3)} 
+$1 ~ /"price"/			{price[pr++]   = substr($3,2,length($3)-3)} 
+$1 ~ /"chg_percent"/	{chpct[cp++]   = substr($3,2,length($3)-3)}
+$1 ~ /"change"/			{chprice[pc++] = substr($3,2,length($3)-3)}
+END {
+	x = left
+	y = top
+	for (i=0; i < ns; i++) {
+		if (chprice[i] < 0) {
+			color="red"
+		} else {
+			color="rgb(136,195,38)"
+		}
+		printf "<text xp=\"%.2f\" yp=\"%.2f\" sp=\"%d\">%s</text>\n", x, y, size, sym[i]
+		printf "<text align=\"end\" xp=\"%.2f\" yp=\"%.2f\" sp=\"%d\">%.2f</text>\n", x+=cintr*2, y, size, price[i]
+		printf "<text align=\"end\" xp=\"%.2f\" yp=\"%.2f\" sp=\"%d\" color=\"%s\">%.2f</text>\n", x+=cintr, y, size, color, chprice[i]
+		printf "<text align=\"end\" xp=\"%.2f\" yp=\"%.2f\" sp=\"%d\" color=\"%s\">(%.2f%%)</text>\n", x+=cintr, y, size, color, chpct[i]
+		x = left
+		y -= rintr
+	}
+	printf "<text  xp=\"%.2f\" yp=\"%.2f\" sp=\"%d\">%s</text>\n", footx, footy, footsize, ts
+	print "</slide></deck>"
+}' $*
