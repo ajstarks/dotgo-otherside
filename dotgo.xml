@@ -197,11 +197,10 @@
 	</slide>
 	
 	<slide><image xp="50" yp="50" width="2018" height="1610" scale="67" name="benchviz.png"/></slide>
-	<!-- <slide><image xp="50" yp="50" width="2640" height="1638" scale="67" name="/Users/ajstarks/Desktop/bg2.png"/></slide> -->
 	<slide><image xp="50" yp="50" width="2716" height="1596" scale="67" name="bulletgraph.png"/></slide>
-	<slide><image xp="50" yp="50" width="2720" height="1140" scale="67" name="barchart.png"/></slide>
 	<slide><image xp="50" yp="50" width="2166" height="1626" scale="67" name="compx.png"/></slide>
-	<slide><image xp="50" yp="50" width="2146" height="1594" scale="67" name="pmap.png"/></slide>
+	<slide><image xp="50" yp="50" width="1464" height="478" name="tumblrgrid.png"/></slide>
+	<!-- <slide><image xp="50" yp="50" width="2146" height="1594" scale="67" name="pmap.png"/></slide> -->
 	<slide><image xp="50" yp="50" width="2144" height="1610" scale="67" name="quad.png"/></slide>
 	<slide><image xp="50" yp="50" width="2146" height="1610" scale="67" name="roadmap.png"/></slide>
 	<slide><image xp="50" yp="50" width="2142" height="1608" scale="67" name="pv.png"/></slide>
@@ -211,8 +210,6 @@
 	<slide><image xp="50" yp="50" width="1920" height="1080"  name="stockproduct.png"/></slide>
 	<slide><image xp="50" yp="50" width="2138" height="1596" scale="67" name="tweetfreq.png"/></slide>
 	
-	<!-- <slide><image xp="50" yp="50" width="1591" height="998" name="bv-combo.png"/></slide> -->
-
 	<slide bg="black">
 		<image xp="20" yp="50"  width="1150" height="2072" scale="45" name="lt-04-jones-montiel.png"/>
 		<image xp="50" yp="50"  width="1150" height="2072" scale="45" name="lt-04-dkng-ddl.png"/>
@@ -246,23 +243,7 @@
 	<slide><image xp="50" yp="50"  width="900" height="846" name="203076.png"/></slide>
 	<slide><image xp="50" yp="50"  width="900" height="846" name="2544.png"/></slide>
 	<slide><image xp="50" yp="50"  width="900" height="846" name="2544.png"/></slide>
-	<!--
-	<slide bg="lightgray">
-		<image xp="50" yp="87" scale="30" width="900" height="846" name="201566.png"/>
-		
-		<image xp="40" yp="62" scale="30" width="900" height="846" name="201933.png"/>
-		<image xp="60" yp="62" scale="30" width="900" height="846" name="201935.png"/>
 
-		<image xp="30" yp="37" scale="30" width="900" height="846" name="201939.png"/>
-		<image xp="50" yp="37" scale="30" width="900" height="846" name="202326.png"/>
-		<image xp="70" yp="37" scale="30" width="900" height="846" name="202681.png"/>
-		
-		<image xp="20" yp="12" scale="30" width="900" height="846" name="202691.png"/>
-		<image xp="40" yp="12" scale="30" width="900" height="846" name="202695.png"/>
-		<image xp="60" yp="12" scale="30" width="900" height="846" name="203076.png"/>
-		<image xp="80" yp="12" scale="30" width="900" height="846" name="2544.png"/>
-	</slide>
-	-->
 	<slide>
 		<image xp="90" yp="80" width="200" height="200" name="15.png"/>
 		<image xp="90" yp="50" width="200" height="200" name="30.png"/>
