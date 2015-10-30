@@ -893,11 +893,21 @@ encoding/json</text>
 	<slide bg="black" fg="white">
 		<text xp="50" yp="50" sp="9" align="center">The Community</text>
 	</slide>
-	
+	<!--
 	<slide bg="rgb(0,0,127)">
 		<image xp="50" yp="50" name="rsc-gmail-big.png" scale="70" width="2578" height="812"/>/
 	</slide>
 	
+	<slide bg="rgb(0,0,127)">
+		<image xp="50" yp="50" name="red-rsc-message3.png" scale="75" width="2468" height="598"/>/
+	</slide>
+	-->
+	
+	<slide bg="rgb(0,0,127)">
+		<image xp="50" yp="50" name="red-rsc-message2.png" scale="70" width="2306" height="716"/>/
+	</slide>
+
+
 	
 	<slide bg="rgb(0,0,127)" fg="white">
 		<text xp="10" yp="70" sp="4" type="block" wp="60" link="http://csapp.cs.cmu.edu/3e/docs/chistory.html">Thompson wanted to create a comfortable computing environment constructed according to his own design, using whatever means were available.</text>
