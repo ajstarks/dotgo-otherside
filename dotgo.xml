@@ -206,8 +206,8 @@
 	<slide><image xp="50" yp="50" width="1622" height="1610" scale="67" name="rr.png"/></slide>
 	<slide><image xp="50" yp="50" width="2100" height="1628" scale="67" name="servers.png"/></slide>
 	<slide><image xp="50" yp="50" width="2132" height="1588" scale="67" name="svgplot.png"/></slide>
-	<slide><image xp="50" yp="50" width="1920" height="1080"  name="stockproduct.png"/></slide>
 	<slide><image xp="50" yp="50" width="2138" height="1596" scale="67" name="tweetfreq.png"/></slide>
+	<slide bg="black"><image xp="50" yp="50" width="1920" height="600" name="planets.png"/></slide>
 	
 	<slide bg="black">
 		<image xp="20" yp="50"  width="1150" height="2072" scale="45" name="lt-04-jones-montiel.png"/>
