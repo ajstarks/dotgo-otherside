@@ -894,15 +894,15 @@ encoding/json</text>
 		<text xp="50" yp="50" sp="9" align="center">The Community</text>
 	</slide>
 
-	<slide bg="rgb(0,0,127)">
-		<rect xp="50" yp="50" wp="80" hp="80" color="white"/>
-		<text xp="22" yp="80" sp="2.5" align="end" color="gray">From:</text>
+	<slide bg="rgb(0,0,127)" fg="white">
+		<!-- <rect xp="50" yp="50" wp="80" hp="80" color="white"/> -->
+		<text xp="22" yp="80" sp="2.5" align="end" opacity="70">From:</text>
 		<text xp="25" yp="80" sp="2.5">Russ Cox</text>
-		<text xp="22" yp="73" sp="2.5" align="end" color="gray">Subject:</text>
+		<text xp="22" yp="73" sp="2.5" align="end" opacity="70">Subject:</text>
 		<text xp="25" yp="73" sp="2.5">Re: [go-nuts] Visualizing Random Number Generators...</text>
-		<text xp="22" yp="66" sp="2.5" align="end" color="gray">Date:</text>
+		<text xp="22" yp="66" sp="2.5" align="end" opacity="70">Date:</text>
 		<text xp="25" yp="66" sp="2.5">March 5, 2010 1:14:44 EST</text>
-		<text xp="22" yp="59" sp="2.5" align="end" color="gray">To:</text>
+		<text xp="22" yp="59" sp="2.5" align="end" opacity="70">To:</text>
 		<text xp="25" yp="59" sp="2.5">ajstarks &lt;ajstarks@gmail.com&gt;</text>
 		
 		<line xp1="10" yp1="50" xp2="90" yp2="50" color="gray" sp="0.02"/>
@@ -910,14 +910,13 @@ encoding/json</text>
 	</slide>
 
 
-	
 	<slide bg="rgb(0,0,127)" fg="white">
-		<text xp="10" yp="70" sp="4" type="block" wp="65" link="http://csapp.cs.cmu.edu/3e/docs/chistory.html">Thompson wanted to create a comfortable computing environment constructed according to his own design, using whatever means were available.</text>
+		<text xp="10" yp="70" sp="4" type="block" wp="60" link="http://csapp.cs.cmu.edu/3e/docs/chistory.html">Thompson wanted to create a comfortable computing environment constructed according to his own design, using whatever means were available.</text>
 		<text xp="10" yp="20" sp="2.5">Dennis M. Ritchie, “The Development of the C Language”</text>
 	</slide>
 	
 	<slide bg="rgb(0,0,127)" fg="white">
-		<text xp="10" yp="70" sp="4" type="block" wp="65" link="https://groups.google.com/d/msg/golang-nuts/19a3E6adUKw/cQajGAcqBgAJ">Go is not the product of a Whiggish development process.
+		<text xp="10" yp="70" sp="4" type="block" wp="60" link="https://groups.google.com/d/msg/golang-nuts/19a3E6adUKw/cQajGAcqBgAJ">Go is not the product of a Whiggish development process.
 We were just trying to get something that worked for us.</text>
 		<text xp="10" yp="20" sp="2.5">Rob Pike, “Origin of Go’s interface design”, golang-nuts</text>
 	</slide>
@@ -935,17 +934,17 @@ We were just trying to get something that worked for us.</text>
 	</slide>
 	
 	<slide bg="black">
-		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="picasso-hires.png"/>
+		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="picasso-hires.png" />
 		<image xp="70" yp="51" width="1835" height="1460" scale="45" name="alan-turing.jpg"/>
 	</slide>
 	
 	<slide bg="black" fg="white">
 		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="picasso-hires.png"/>
 		<image xp="70" yp="51" width="1835" height="1460" scale="45" name="alan-turing.jpg"/>
-		<text xp="30" yp="5" sp="5" align="right">Pic</text>
-		<text xp="30" yp="5" sp="5"  color="gray">asso</text>
-		<text xp="70" yp="5" sp="5" align="right">Tur</text>
-		<text xp="70" yp="5" sp="5" color="gray">ing</text>
+		<text xp="30" yp="5" sp="5" align="right" link="http://www.picasso.fr/us/picasso_page_index.php">Pic</text>
+		<text xp="30" yp="5" sp="5"  color="gray" link="http://www.picasso.fr/us/picasso_page_index.php">asso</text>
+		<text xp="70" yp="5" sp="5" align="right" link="https://en.wikipedia.org/wiki/Alan_Turing">Tur</text>
+		<text xp="70" yp="5" sp="5" color="gray" link="https://en.wikipedia.org/wiki/Alan_Turing">ing</text>
 	</slide>
 
 <!--	
