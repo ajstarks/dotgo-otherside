@@ -2,14 +2,14 @@
 	<title>The Other Side of Go</title>
 	<creator>Anthony Starks</creator>
 	<subject>Go, markup, design</subject>
-	<date>2015-10-23</date>
+	<date>2015-11-04</date>
 	<description>This presentation describes the use of Go for programming pictures, 
 	a departure from the usual back-end view. dotGo 2015 edition</description>
  
 	<slide bg="black" fg="white">
 		<text sp="8" xp="50" yp="60"  align="center">The other side of Go</text>
 		<text sp="5" xp="50" yp="45"  align="center" color="gray">Programming Pictures</text>
-		<text sp="1.5" xp="50" yp="5" align="center" color="gray">Anthony Starks</text>
+		<text sp="1.5" xp="50" yp="5" align="center" color="gray">Anthony Starks | @ajstarks</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
@@ -50,7 +50,7 @@
 		<line xp1="40" yp1="89" xp2="40" yp2="85"/>
 		<text xp="15" yp="80" sp="3.5" color="rgb(127,0,0)" align="center">Rect</text>
 		<text xp="40" yp="80" sp="3.5" color="rgb(0,0,127)" align="center">(100,200,250,125)</text>
-		<text xp="5" yp="60" sp="3" type="block" font="mono" wp="70">&lt;rect x=&quot;100&quot; 
+		<text xp="5" yp="60" sp="2.5" type="block" font="mono" wp="70">&lt;rect x=&quot;100&quot; 
 		y=&quot;200&quot; width=&quot;250&quot; height=&quot;125&quot;/&gt;</text>
 		<rect xp="50" yp="25" wp="30" hr="50" color="black"/>
 		<text xp="35" yp="35" sp="2" align="right">(100, 200)</text>
@@ -68,7 +68,7 @@
 		<text xp="15" yp="80" sp="3.5" color="rgb(127,0,0)" align="center">Rect</text>
 		<text xp="40" yp="80" sp="3.5" color="rgb(0,0,127)" align="center">(100,200,250,125,</text>
 		<text xp="75" yp="80" sp="3.5" color="rgb(127,127,127)" align="center">"fill:gray;stroke:blue")</text>
-		<text xp="5" yp="60" sp="3" type="block" font="mono" wp="70">&lt;rect x=&quot;100&quot; 
+		<text xp="5" yp="60" sp="2.5" type="block" font="mono" wp="70">&lt;rect x=&quot;100&quot; 
 		y=&quot;200&quot; width=&quot;250&quot; height=&quot;125&quot; style=&quot;fill:gray;stroke:blue&quot;/&gt;</text>
 		<rect xp="50" yp="25" wp="30" hr="50" color="blue"/>
 		<rect xp="50" yp="25" wp="29.5" hr="49" color="gray"/>
@@ -87,7 +87,7 @@
 		<text xp="15" yp="80" sp="3.5" color="rgb(127,0,0)" align="center">Rect</text>
 		<text xp="40" yp="80" sp="3.5" color="rgb(0,0,127)" align="center">(100,200,250,125,</text>
 		<text xp="60" yp="72" sp="3.5" color="rgb(127,127,127)" align="center">`id="box"`, `fill="gray"`, `stroke="blue"`)</text>
-		<text xp="5" yp="60" sp="3" type="block" font="mono" wp="70">&lt;rect x=&quot;100&quot; 
+		<text xp="5" yp="60" sp="2.5" type="block" font="mono" wp="70">&lt;rect x=&quot;100&quot; 
 		y=&quot;200&quot; width=&quot;250&quot; height=&quot;125&quot; id="box" fill="gray" stroke="blue"/&gt;</text>
 		<rect xp="50" yp="25" wp="30" hr="50" color="blue"/>
 		<rect xp="50" yp="25" wp="29.5" hr="49" color="gray"/>
@@ -187,7 +187,7 @@
 	</slide>
 	
 	<slide>
-		<!-- <text xp="50" yp="90" sp="3" align="center">barchart -showdata -showtitle benchmarks.xml</text> -->
+		<!-- <text xp="50" yp="90" sp="2.5" align="center">barchart -showdata -showtitle benchmarks.xml</text> -->
 		<text xp="25" yp="95" sp="1.4" type="code" wp="65" file="benchmarks.xml"/>
 		<image xp="50" yp="25" width="2720" height="1140" scale="40" name="barchart.png"/>
 	</slide>
@@ -220,7 +220,7 @@
 	</slide>
 	
 	<slide>
-	<text xp="5" yp="90" sp="3">f50 sunset</text>
+	<text xp="5" yp="90" sp="2.5">f50 sunset</text>
 	<text xp="5" yp="85" sp="2" color="gray">https://api.flickr.com/services/rest/
       ?method=flickr.photos.search
       &amp;api_key=...
@@ -247,9 +247,9 @@
 		<image xp="90" yp="80" width="200" height="200" name="15.png"/>
 		<image xp="90" yp="50" width="200" height="200" name="30.png"/>
 		<image xp="90" yp="20" width="200" height="200" name="45.png"/>
-		<text xp="75" yp="80" sp="3"  align="center">ti = 15</text>
-		<text xp="75" yp="50" sp="3"  align="center">ti = 30</text>
-		<text xp="75" yp="20" sp="3"  align="center">ti = 45</text>
+		<text xp="75" yp="80" sp="2.5"  align="center">ti = 15</text>
+		<text xp="75" yp="50" sp="2.5"  align="center">ti = 30</text>
+		<text xp="75" yp="20" sp="2.5"  align="center">ti = 45</text>
 		<text xp="2" yp="95" sp="1.75" font="mono" file="rotext.go"/>
 		<rect xp="13" yp="70" wp="15" hp="5" color="yellow" opacity="40"/>
 	</slide>
@@ -326,18 +326,18 @@
 		<rect xp="70" yp="55" wp="20" hr="56.2" color="rgb(127,0,0)"/>
 		<rect xp="80" yp="50" wp="20" hr="56.2" color="rgb(255,255,255)"/>
 		<rect xp="75" yp="45" wp="20" hr="56.2" color="rgb(127,127,127)"/>
-		<text xp="95" yp="5" sp="3" align="right">a Go package for presentations</text>
+		<text xp="95" yp="5" sp="2.5" align="right">a Go package for presentations</text>
 	</slide>
 	
 	<slide bg="white" fg="rgb(50,50,50)">
-		<text xp="95" yp="5" sp="3" align="right">Anatomy of a Deck</text>
+		<text xp="95" yp="5" sp="2.5" align="right">Anatomy of a Deck</text>
 		<list  xp="16" yp="90" sp="1.4" font="mono">
 		  <li>&lt;deck&gt;</li>
 		  <li>  &lt;canvas width="1024" height="768" /&gt;</li>
 		  <li>  &lt;slide bg="white" fg="black"&gt;</li>
 		  <li>      &lt;image xp="70" yp="60" width="640" height="480" name="follow.png" sp="1" caption="Dreams"/&gt;</li>
 		  <li>      &lt;text  xp="20" yp="80" sp="4" link="http://goo.gl/Wm05Ex"&gt;Deck elements&lt;/text&gt;</li>
-		  <li>      &lt;list  xp="20" yp="70" sp="3" type="bullet"&gt;</li>
+		  <li>      &lt;list  xp="20" yp="70" sp="2.5" type="bullet"&gt;</li>
 		  <li>         &lt;li&gt;text, list, image&lt;/li&gt;</li>
 		  <li>         &lt;li&gt;line, rect, ellipse&lt;/li&gt;</li>
 		  <li>         &lt;li&gt;arc, curve, polygon&lt;/li&gt;</li>
@@ -376,7 +376,7 @@
 	<slide bg="white" fg="black">
 	    <image xp="70" yp="60" width="640" height="480" name="follow.jpg" sp="1" caption="Dreams" />
 	    <text  xp="20" yp="90" sp="4" link="http://goo.gl/Wm05Ex">Deck elements</text>
-	    <list  xp="20" yp="70" sp="3" type="bullet">
+	    <list  xp="20" yp="70" sp="2.5" type="bullet">
 	       <li>text, list, image</li>
 	       <li>line, rect, ellipse</li>
 	       <li>arc, curve, polygon</li>
@@ -553,7 +553,7 @@
 		<image xp="20" yp="70" width="1400" height="1050" scale="40" name="title.png"/>
 		<image xp="50" yp="70" width="1400" height="1050" scale="40" name="section.png"/>
 		<image xp="80" yp="70" width="1400" height="1050" scale="40" name="eames.png"/>
-		<text xp="50" yp="10" sp="3" align="center">capgen slides.txt | pdfdeck ... > slides.pdf</text>
+		<text xp="50" yp="10" sp="2.5" align="center">capgen slides.txt | pdfdeck ... > slides.pdf</text>
 		<text xp="2" yp="40" sp="1.8" file="slides.txt"/>
 	</slide>
 
@@ -824,8 +824,8 @@ Gate C31C
 	   <image xp="95" yp="10" width="75" height="100" name="doc.png"/>
 	   <text xp="20" yp="70" sp="4" wp="40" font="serif" type="block">So, the next time you're about to make a subclass, 
 	   think hard and ask yourself</text>
-	   <text xp="20" yp="40" sp="6" font="serif" color="rgb(127,0,0)">what would Go do</text>
-	   <text xp="20" yp="15" sp="3" color="rgb(127,127,127)" 
+	   <text xp="20" yp="35" sp="6" font="serif" color="rgb(127,0,0)">what would Go do</text>
+	   <text xp="20" yp="15" sp="2.5" color="rgb(127,127,127)" 
 	   link="http://mackross.net/about/">Andrew Mackenzie-Ross</text>
 	</slide>
 
@@ -893,31 +893,33 @@ encoding/json</text>
 	<slide bg="black" fg="white">
 		<text xp="50" yp="50" sp="9" align="center">The Community</text>
 	</slide>
-	<!--
+
 	<slide bg="rgb(0,0,127)">
-		<image xp="50" yp="50" name="rsc-gmail-big.png" scale="70" width="2578" height="812"/>/
-	</slide>
-	
-	<slide bg="rgb(0,0,127)">
-		<image xp="50" yp="50" name="red-rsc-message3.png" scale="75" width="2468" height="598"/>/
-	</slide>
-	-->
-	
-	<slide bg="rgb(0,0,127)">
-		<image xp="50" yp="50" name="red-rsc-message2.png" scale="70" width="2306" height="716"/>/
+		<rect xp="50" yp="50" wp="80" hp="80" color="white"/>
+		<text xp="22" yp="80" sp="2.5" align="end" color="gray">From:</text>
+		<text xp="25" yp="80" sp="2.5">Russ Cox</text>
+		<text xp="22" yp="73" sp="2.5" align="end" color="gray">Subject:</text>
+		<text xp="25" yp="73" sp="2.5">Re: [go-nuts] Visualizing Random Number Generators...</text>
+		<text xp="22" yp="66" sp="2.5" align="end" color="gray">Date:</text>
+		<text xp="25" yp="66" sp="2.5">March 5, 2010 1:14:44 EST</text>
+		<text xp="22" yp="59" sp="2.5" align="end" color="gray">To:</text>
+		<text xp="25" yp="59" sp="2.5">ajstarks &lt;ajstarks@gmail.com&gt;</text>
+		
+		<line xp1="10" yp1="50" xp2="90" yp2="50" color="gray" sp="0.02"/>
+		<text xp="22" yp="40" sp="3.5" type="block">are you going to share the library or just tease us with pictures?  ;-)</text>
 	</slide>
 
 
 	
 	<slide bg="rgb(0,0,127)" fg="white">
 		<text xp="10" yp="70" sp="4" type="block" wp="60" link="http://csapp.cs.cmu.edu/3e/docs/chistory.html">Thompson wanted to create a comfortable computing environment constructed according to his own design, using whatever means were available.</text>
-		<text xp="10" yp="20" sp="3">Dennis M. Ritchie, “The Development of the C Language”</text>
+		<text xp="10" yp="20" sp="2.5">Dennis M. Ritchie, “The Development of the C Language”</text>
 	</slide>
 	
 	<slide bg="rgb(0,0,127)" fg="white">
 		<text xp="10" yp="70" sp="4" type="block" wp="60" link="https://groups.google.com/d/msg/golang-nuts/19a3E6adUKw/cQajGAcqBgAJ">Go is not the product of a Whiggish development process.
 We were just trying to get something that worked for us.</text>
-		<text xp="10" yp="20" sp="3">Rob Pike, “Origin of Go’s interface design”, golang-nuts</text>
+		<text xp="10" yp="20" sp="2.5">Rob Pike, “Origin of Go’s interface design”, golang-nuts</text>
 	</slide>
 
 	<slide bg="black" fg="white">
