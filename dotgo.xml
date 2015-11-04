@@ -912,12 +912,12 @@ encoding/json</text>
 
 	
 	<slide bg="rgb(0,0,127)" fg="white">
-		<text xp="10" yp="70" sp="4" type="block" wp="60" link="http://csapp.cs.cmu.edu/3e/docs/chistory.html">Thompson wanted to create a comfortable computing environment constructed according to his own design, using whatever means were available.</text>
+		<text xp="10" yp="70" sp="4" type="block" wp="65" link="http://csapp.cs.cmu.edu/3e/docs/chistory.html">Thompson wanted to create a comfortable computing environment constructed according to his own design, using whatever means were available.</text>
 		<text xp="10" yp="20" sp="2.5">Dennis M. Ritchie, “The Development of the C Language”</text>
 	</slide>
 	
 	<slide bg="rgb(0,0,127)" fg="white">
-		<text xp="10" yp="70" sp="4" type="block" wp="60" link="https://groups.google.com/d/msg/golang-nuts/19a3E6adUKw/cQajGAcqBgAJ">Go is not the product of a Whiggish development process.
+		<text xp="10" yp="70" sp="4" type="block" wp="65" link="https://groups.google.com/d/msg/golang-nuts/19a3E6adUKw/cQajGAcqBgAJ">Go is not the product of a Whiggish development process.
 We were just trying to get something that worked for us.</text>
 		<text xp="10" yp="20" sp="2.5">Rob Pike, “Origin of Go’s interface design”, golang-nuts</text>
 	</slide>
