@@ -9,7 +9,8 @@
 	<slide bg="black" fg="white">
 		<text sp="8" xp="50" yp="60"  align="center">The other side of Go</text>
 		<text sp="5" xp="50" yp="45"  align="center" color="gray">Programming Pictures</text>
-		<text sp="1.5" xp="50" yp="5" align="center" color="gray">Anthony Starks | @ajstarks</text>
+		<text sp="1.5" xp="50" yp="10" align="center" color="gray">Anthony Starks
+@ajstarks</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
@@ -36,12 +37,6 @@
 	<slide>
 		<image xp="50" yp="50" width="1336" height="729" name="svgopher.png"/>
 	</slide>
-
-<!--	
-	<slide>
-		<image name="svgdef.png" xp="50" yp="50" width="3650" height="2737" scale="40" />
-	</slide>
--->
 
 	<slide>
 		<text xp="15" yp="90" sp="2.5" align="center" color="gray">Element</text>
@@ -141,7 +136,6 @@
 		<image xp="80" yp="20" width="256" height="256" color="gray" name="concentric.png" sp="1.6"  caption="concentric"/>
 	</slide>
 	
-	
 	<slide>
 		<text xp="5" yp="85" sp="5">/pacman/?angle=20</text>
 		<image xp="70" yp="85" width="256" height="256" name="pacman20.png"/>
@@ -199,7 +193,6 @@
 	<slide><image xp="50" yp="50" width="2018" height="1610" scale="67" name="benchviz.png"/></slide>
 	<slide><image xp="50" yp="50" width="2716" height="1596" scale="67" name="bulletgraph.png"/></slide>
 	<slide><image xp="50" yp="50" width="2166" height="1626" scale="67" name="compx.png"/></slide>
-	<!-- <slide><image xp="50" yp="50" width="2146" height="1594" scale="67" name="pmap.png"/></slide> -->
 	<slide><image xp="50" yp="50" width="2106" height="1544" scale="67" name="quad.png"/></slide>
 	<slide><image xp="50" yp="50" width="2146" height="1610" scale="67" name="roadmap.png"/></slide>
 	<slide><image xp="50" yp="50" width="2142" height="1608" scale="67" name="pv.png"/></slide>
@@ -207,7 +200,7 @@
 	<slide><image xp="50" yp="50" width="2100" height="1628" scale="67" name="servers.png"/></slide>
 	<slide><image xp="50" yp="50" width="2132" height="1588" scale="67" name="svgplot.png"/></slide>
 	<slide><image xp="50" yp="50" width="2138" height="1596" scale="67" name="tweetfreq.png"/></slide>
-	<slide bg="black"><image xp="50" yp="50" width="1920" height="600" name="planets.png"/></slide>
+	<slide bg="black"><image xp="50" yp="50" width="1900" height="600" name="planets.png"/></slide>
 	
 	<slide bg="black">
 		<image xp="20" yp="50"  width="1150" height="2072" scale="45" name="lt-04-jones-montiel.png"/>
@@ -457,8 +450,6 @@
 		<text xp="50" yp="5" sp="4" align="center">Scaling the canvas</text>
 	</slide>
 	
-
-	
 	<slide>
 	  <text xp="5" yp="47.5" sp="4">Process</text>
 	  <polygon xc="32 35 32" yc="52 50 48" color="gray"/>
@@ -547,7 +538,6 @@
 		<text xp="15" yp="92" sp="2" font="mono" file="gen3.go"/>
 		<image xp="35" yp="25" width="1429" height="810" scale="60" name="gen3.png"/>
 	</slide>
-
 
 	<slide bg="rgb(240,240,240)" fg="black">
 		<image xp="20" yp="70" width="1400" height="1050" scale="40" name="title.png"/>
@@ -657,7 +647,6 @@
 		</list>
 		<text xp="5" yp="5" sp="1.5" color="rgb(200,200,200)">A. Person, November 2015</text>
 	</slide>
-	
 	
 	<slide bg="steelblue" fg="white">
 		<text xp="5" yp="90" sp="6">Document Links</text>
@@ -787,7 +776,6 @@ Gate C31C
 		<line sp="0.05" xp1="15.00" yp1="2.00" xp2="80" yp2="2.00"/>
 	</slide>
 
-	
 	<slide>
 		<line xp1="0" yp1="08.30" xp2="100" yp2="08.30" color="blue" sp="0.1"/>
 		<line xp1="0" yp1="16.60" xp2="100" yp2="16.60" color="blue" sp="0.1" />
@@ -818,8 +806,6 @@ Gate C31C
 		<text xp="50" yp="5"  sp="2.5" align="center">Poor</text>
 	</slide>
  
-	
-	
 	<slide bg="white" fg="black">
 	   <image xp="95" yp="10" width="75" height="100" name="doc.png"/>
 	   <text xp="20" yp="70" sp="4" wp="40" font="serif" type="block">So, the next time you're about to make a subclass, 
@@ -857,13 +843,10 @@ and the voice of the turtle is heard in our land.
 		</list>
 	</slide>
 	
-	
 	<slide bg="rgb(127,0,0)" fg="white">
 		<text xp="50" yp="50" sp="8" align="center">What is it about Go?</text>
 	</slide>
 	
-	
-
 	<slide bg="black" fg="white">
 		<text xp="50" yp="50" sp="9" font="mono" align="center">fmt</text>
 	</slide>
@@ -934,7 +917,7 @@ We were just trying to get something that worked for us.</text>
 	</slide>
 	
 	<slide bg="black">
-		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="picasso-hires.png" />
+		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="picasso-hires.png"/>
 		<image xp="70" yp="51" width="1835" height="1460" scale="45" name="alan-turing.jpg"/>
 	</slide>
 	
@@ -961,7 +944,6 @@ We were just trying to get something that worked for us.</text>
 		<text xp="70" yp="5" sp="5" align="right">Tur</text>
 		<text xp="70" yp="5" sp="5" color="gray">ing</text>
 	</slide>
-	
 
 	<slide fg="rgb(100,100,100)">
 		<text xp="25" yp="80" sp="7" color="black">Thank you</text>
