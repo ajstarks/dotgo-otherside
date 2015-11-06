@@ -2,7 +2,7 @@
 	<title>The Other Side of Go</title>
 	<creator>Anthony Starks</creator>
 	<subject>Go, markup, design</subject>
-	<date>2015-11-04</date>
+	<date>2015-11-06</date>
 	<description>This presentation describes the use of Go for programming pictures, 
 	a departure from the usual back-end view. dotGo 2015 edition</description>
  
@@ -196,7 +196,7 @@
 	<slide><image xp="50" yp="50" width="2106" height="1544" scale="67" name="quad.png"/></slide>
 	<slide><image xp="50" yp="50" width="2146" height="1610" scale="67" name="roadmap.png"/></slide>
 	<slide><image xp="50" yp="50" width="2142" height="1608" scale="67" name="pv.png"/></slide>
-	<slide><image xp="50" yp="50" width="1622" height="1610" scale="67" name="rr.png"/></slide>
+	<slide><image xp="50" yp="50" width="1550" height="1496" scale="72" name="rr0.png"/></slide>
 	<slide><image xp="50" yp="50" width="2100" height="1628" scale="67" name="servers.png"/></slide>
 	<slide><image xp="50" yp="50" width="2132" height="1588" scale="67" name="svgplot.png"/></slide>
 	<slide><image xp="50" yp="50" width="2138" height="1596" scale="67" name="tweetfreq.png"/></slide>
