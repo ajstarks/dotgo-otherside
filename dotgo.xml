@@ -92,7 +92,7 @@
 	
 	<slide>
 		<image xp="70" yp="70" width="960" height="540" name="hw.png"/>
-	  	<text xp="4" yp="90" sp="1.8" wp="50" font="mono" file="hwsvg.go"/>
+	  	<text xp="4" yp="90" sp="2" wp="50" font="mono" file="hwsvg.go"/>
 	</slide>
 
 	<slide>
@@ -112,11 +112,11 @@
 	</slide>
 
 	<slide>
-		<image xp="75" yp="70" width="1006" height="958" scale="50" name="websvg-red.png"/>
-		<image xp="75" yp="20" width="998" height="956" scale="50" name="websvg-green.png"/>
-		<text xp="5" yp="96" sp="1.6" font="mono" file="websvg.go"/>
+		<image xp="85" yp="75" width="1006" height="958" scale="50" name="websvg-red.png"/>
+		<image xp="85" yp="25" width="998" height="956" scale="50" name="websvg-green.png"/>
+		<text xp="5" yp="90" sp="2" font="mono" file="swebsvg.go"/>
 	</slide>
-	
+
 	<slide>
 		<text xp="50" yp="95" sp="2.5" link="http://ajstarks.org:1958/" align="c">http://ajstarks.org:1958/{thing}/</text>
 		<image xp="20" yp="80" width="256" height="256" color="gray" name="clock.png" sp="1.6" caption="clock"/>
@@ -266,7 +266,7 @@
 	
 	<slide>
 		<image xp="70" yp="70" width="1920" height="1080" scale="50" name="hellovg.raw.png"/>
-		<text xp="4" yp="90" sp="1.4" wp="50" font="mono" file="hwopenvg.go"/>
+		<text xp="4" yp="95" sp="1.5" wp="50" font="mono" file="hwopenvg.go"/>
 	</slide>
 	
 	<slide>
@@ -516,12 +516,19 @@
 	</slide>
 
 	<slide>
+		<text xp="5" yp="90" sp="2" font="mono" file="slidegen.go"/>
+		<image xp="65" yp="65" width="1431" height="807" scale="25" name="gen1.png"/>
+		<image xp="65" yp="45" width="1431" height="811" scale="25" name="gen2.png"/>	
+		<image xp="65" yp="25" width="1429" height="810" scale="25" name="gen3.png"/>
+	</slide>
+<!--
+	<slide>
 		<text xp="7" yp="97" sp="1" font="mono" file="gen.go"/>
 		<image xp="65" yp="62" width="1431" height="807" scale="25" name="gen1.png"/>
 		<image xp="65" yp="42" width="1431" height="811" scale="25" name="gen2.png"/>	
 		<image xp="65" yp="20" width="1429" height="810" scale="25" name="gen3.png"/>
 	</slide>
-	
+-->
 	<slide>
 		<text xp="15" yp="92" sp="2" font="mono" file="gen1.go"/>
 		<image xp="35" yp="25" width="1431" height="807" scale="60" name="gen1.png"/>
@@ -887,7 +894,7 @@ encoding/json</text>
 		<text xp="22" yp="59" sp="2.5" align="end" opacity="70">To:</text>
 		<text xp="25" yp="59" sp="2.5">ajstarks &lt;ajstarks@gmail.com&gt;</text>
 		
-		<line xp1="10" yp1="50" xp2="90" yp2="50" color="gray" sp="0.02"/>
+		<line xp1="10" yp1="50" xp2="90" yp2="50" color="gray" sp="0.2"/>
 		<text xp="22" yp="40" sp="3.5" type="block">are you going to share the library or just tease us with pictures?  ;-)</text>
 	</slide>
 
