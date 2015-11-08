@@ -2,15 +2,14 @@
 	<title>The Other Side of Go</title>
 	<creator>Anthony Starks</creator>
 	<subject>Go, markup, design</subject>
-	<date>2015-11-06</date>
+	<date>2015-11-09</date>
 	<description>This presentation describes the use of Go for programming pictures, 
 	a departure from the usual back-end view. dotGo 2015 edition</description>
  
 	<slide bg="black" fg="white">
 		<text sp="8" xp="50" yp="60"  align="center">The other side of Go</text>
-		<text sp="5" xp="50" yp="45"  align="center" color="gray">Programming Pictures</text>
-		<text sp="1.5" xp="50" yp="10" align="center" color="gray">Anthony Starks
-@ajstarks</text>
+		<text sp="5" xp="50" yp="45"  align="center" color="rgb(200,200,200)">Programming Pictures</text>
+		<text sp="1.5" xp="50" yp="10" align="center" color="gray">Anthony Starks</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
@@ -930,21 +929,6 @@ We were just trying to get something that worked for us.</text>
 		<text xp="70" yp="5" sp="5" color="gray" link="https://en.wikipedia.org/wiki/Alan_Turing">ing</text>
 	</slide>
 
-<!--	
-	<slide>
-		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="picasso-hires.png"/>
-		<image xp="70" yp="51" width="1835" height="1460" scale="45" name="alan-turing.jpg"/>
-	</slide>
-	
-	<slide>
-		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="picasso-hires.png"/>
-		<image xp="70" yp="51" width="1835" height="1460" scale="45" name="alan-turing.jpg"/>
-		<text xp="30" yp="5" sp="5" align="right">Pic</text>
-		<text xp="30" yp="5" sp="5"  color="gray">asso</text>
-		<text xp="70" yp="5" sp="5" align="right">Tur</text>
-		<text xp="70" yp="5" sp="5" color="gray">ing</text>
-	</slide>
-
 	<slide fg="rgb(100,100,100)">
 		<text xp="25" yp="80" sp="7" color="black">Thank you</text>
 		<image name="100-GitHub-Mark.png"		width="75" height="75" xp="15" yp="65" />
@@ -961,5 +945,4 @@ We were just trying to get something that worked for us.</text>
 		<text xp="25" yp="23" sp="4">speakerdeck.com/ajstarks</text>
 		<text xp="25" yp="13" sp="4">mindchunk.blogspot.com</text>
 	</slide>
--->
 </deck>
