@@ -91,7 +91,12 @@
 	</slide>
 	
 	<slide>
-	<image xp="50" yp="50" width="877" height="877" name="android.png"/>
+		<image xp="70" yp="70" width="960" height="540" name="hw.png"/>
+	  	<text xp="4" yp="90" sp="1.8" wp="50" font="mono" file="hwsvg.go"/>
+	</slide>
+
+	<slide>
+		<image xp="50" yp="50" width="877" height="877" name="android.png"/>
 	</slide>
 	
 	<slide>
@@ -104,11 +109,6 @@
 		<text xp="63" yp="37" sp="4" align="center">Arc</text>
 		<text xp="50" yp="65" sp="4">fill:rgb(164,198,57)</text>
 		<image xp="50" yp="50" width="877" height="877" name="android.png"/>
-	</slide>
-
-	<slide>
-		<image xp="70" yp="70" width="960" height="540" name="hw.png"/>
-	  	<text xp="4" yp="90" sp="1.8" wp="50" font="mono" file="hwsvg.go"/>
 	</slide>
 
 	<slide>
@@ -929,14 +929,32 @@ We were just trying to get something that worked for us.</text>
 		<text xp="70" yp="5" sp="5" color="gray" link="https://en.wikipedia.org/wiki/Alan_Turing">ing</text>
 	</slide>
 
+<!-- Light
 	<slide fg="rgb(100,100,100)">
 		<text xp="25" yp="80" sp="7" color="black">Thank you</text>
 		<image name="100-GitHub-Mark.png"		width="75" height="75" xp="15" yp="65" />
 		<image name="100-Twitter_logo_blue.png" width="74" height="60" xp="15" yp="55" />
 		<image name="100-gmail-logo-2013.png"	width="75" height="75" xp="15" yp="45" />
 		<image name="100-flickr-logo.png"		width="75" height="75" xp="15" yp="35" />
-		<image name="100-speakerdeck.png"		width="60" height="60" xp="15" yp="25" />
-		<image name="blogger.png"		        width="60" height="60" xp="15" yp="15" />
+		<image name="100-speakerdeck.png"		width="75" height="75" xp="15" yp="25" />
+		<image name="blogger-icon.png"		    width="75" height="75" xp="15" yp="15" />
+	
+		<text xp="25" yp="63" sp="4">github.com/ajstarks</text>
+		<text xp="25" yp="53" sp="4">@ajstarks</text>
+		<text xp="25" yp="43" sp="4">ajstarks@gmail.com</text>
+		<text xp="25" yp="33" sp="4">flickr.com/photos/ajstarks</text>
+		<text xp="25" yp="23" sp="4">speakerdeck.com/ajstarks</text>
+		<text xp="25" yp="13" sp="4">mindchunk.blogspot.com</text>
+	</slide>
+-->	
+	<slide bg="black" fg="rgb(240,240,240)">
+		<text xp="25" yp="80" sp="7" color="white">Thank you</text>
+		<image name="100-GitHub-Mark.png"		width="75" height="75" xp="15" yp="65" />
+		<image name="100-Twitter_logo_blue.png" width="74" height="60" xp="15" yp="55" />
+		<image name="100-gmail-logo-2013.png"	width="75" height="75" xp="15" yp="45" />
+		<image name="100-flickr-logo.png"		width="75" height="75" xp="15" yp="35" />
+		<image name="100-speakerdeck.png"		width="75" height="75" xp="15" yp="25" />
+		<image name="blogger-icon.png"		    width="75" height="75" xp="15" yp="15" />
 	
 		<text xp="25" yp="63" sp="4">github.com/ajstarks</text>
 		<text xp="25" yp="53" sp="4">@ajstarks</text>
