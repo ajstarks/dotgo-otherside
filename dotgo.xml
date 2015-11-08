@@ -328,8 +328,8 @@
 		  <li>  &lt;canvas width="1024" height="768" /&gt;</li>
 		  <li>  &lt;slide bg="white" fg="black"&gt;</li>
 		  <li>      &lt;image xp="70" yp="60" width="640" height="480" name="follow.png" sp="1" caption="Dreams"/&gt;</li>
-		  <li>      &lt;text  xp="20" yp="80" sp="4" link="http://goo.gl/Wm05Ex"&gt;Deck elements&lt;/text&gt;</li>
-		  <li>      &lt;list  xp="20" yp="70" sp="2.5" type="bullet"&gt;</li>
+		  <li>      &lt;text  xp="20" yp="80" sp="5" link="http://goo.gl/Wm05Ex"&gt;Deck elements&lt;/text&gt;</li>
+		  <li>      &lt;list  xp="20" yp="70" sp="3" type="bullet"&gt;</li>
 		  <li>         &lt;li&gt;text, list, image&lt;/li&gt;</li>
 		  <li>         &lt;li&gt;line, rect, ellipse&lt;/li&gt;</li>
 		  <li>         &lt;li&gt;arc, curve, polygon&lt;/li&gt;</li>
@@ -367,8 +367,8 @@
 
 	<slide bg="white" fg="black">
 	    <image xp="70" yp="60" width="640" height="480" name="follow.jpg" sp="1" caption="Dreams" />
-	    <text  xp="20" yp="90" sp="4" link="http://goo.gl/Wm05Ex">Deck elements</text>
-	    <list  xp="20" yp="70" sp="2.5" type="bullet">
+	    <text  xp="20" yp="90" sp="5" link="http://goo.gl/Wm05Ex">Deck elements</text>
+	    <list  xp="20" yp="70" sp="3" type="bullet">
 	       <li>text, list, image</li>
 	       <li>line, rect, ellipse</li>
 	       <li>arc, curve, polygon</li>
@@ -462,7 +462,7 @@
 	  <line xp1="65" yp1="50" xp2="70" yp2="50" sp=".25" color="rgb(127,0,0)" />
 	  <line xp1="65" yp1="42.5" xp2="70" yp2="25" sp=".25" color="rgb(0,127,0)"/>
 
-	  <rect xp="50" yp="50" wp="30" hp="15" color="black"/>
+	  <rect xp="50" yp="50" wp="30" hp="15" color="rgb(100,100,100)"/>
 	  <rect xp="85" yp="75" wp="30" hp="15" color="rgb(0,0,127)"  />
 	  <rect xp="85" yp="50" wp="30" hp="15" color="rgb(127,0,0)"  />
 	  <rect xp="85" yp="25" wp="30" hp="15" color="rgb(0,127,0)"/>
@@ -517,9 +517,9 @@
 
 	<slide>
 		<text xp="5" yp="90" sp="2" font="mono" file="slidegen.go"/>
-		<image xp="65" yp="65" width="1431" height="807" scale="25" name="gen1.png"/>
-		<image xp="65" yp="45" width="1431" height="811" scale="25" name="gen2.png"/>	
-		<image xp="65" yp="25" width="1429" height="810" scale="25" name="gen3.png"/>
+		<image xp="75" yp="65" width="1431" height="807" scale="25" name="gen1.png"/>
+		<image xp="75" yp="45" width="1431" height="811" scale="25" name="gen2.png"/>	
+		<image xp="75" yp="25" width="1429" height="810" scale="25" name="gen3.png"/>
 	</slide>
 <!--
 	<slide>
