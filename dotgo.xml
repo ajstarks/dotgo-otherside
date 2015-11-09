@@ -854,8 +854,8 @@ and the voice of the turtle is heard in our land.
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<text xp="50" yp="55" sp="9" font="mono" align="center">Writer
-Reader</text>
+		<text xp="50" yp="55" sp="9" font="mono" align="center">io.Writer
+io.Reader</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
