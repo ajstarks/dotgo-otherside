@@ -953,7 +953,7 @@ We were just trying to get something that worked for us.</text>
 		<image name="100-gmail-logo-2013.png"	width="75" height="75" xp="15" yp="45" />
 		<image name="100-flickr-logo.png"		width="75" height="75" xp="15" yp="35" />
 		<image name="100-speakerdeck.png"		width="75" height="75" xp="15" yp="25" />
-		<image name="blogger-icon.png"		    width="75" height="75" xp="15" yp="15" />
+		<image name="Blogger-Icon.png"		    width="75" height="75" xp="15" yp="15" />
 	
 		<text xp="25" yp="63" sp="4">github.com/ajstarks</text>
 		<text xp="25" yp="53" sp="4">@ajstarks</text>
