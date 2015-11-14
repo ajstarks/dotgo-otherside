@@ -18,7 +18,7 @@
 		<image name="ds.jpg" width="1920" height="1280" xp="50" yp="50"/>
 	</slide>
 
-	<slide>
+	<slide bg="black" fg="white">
 	<image name="july-sky.jpg" width="4224" height="2376" scale="45" xp="50" yp="50"/>
 	<rect xp="50" yp="15" wp="100" hp="20" color="black" opacity="15"/>
 	<text xp="50" yp="15" sp="5" align="center" color="white">But sometimes it's about the picture</text>
