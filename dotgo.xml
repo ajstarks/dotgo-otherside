@@ -91,8 +91,8 @@
 	</slide>
 	
 	<slide>
-		<image xp="70" yp="70" width="960" height="540" name="hw.png"/>
-	  	<text xp="4" yp="90" sp="2" wp="50" font="mono" file="hwsvg.go"/>
+		<image xp="75" yp="72" width="900" height="560" name="hw.png"/>
+	  	<text xp="4" yp="95" sp="2" wp="50" font="mono" file="hwsvg.go"/>
 	</slide>
 
 	<slide>
@@ -118,7 +118,7 @@
 	</slide>
 
 	<slide>
-		<text xp="50" yp="95" sp="2.5" link="http://ajstarks.org:1958/" align="c">http://ajstarks.org:1958/{thing}/</text>
+		<text xp="50" yp="95" sp="2.5" link="https://ajstarks.org:1958/" align="c">https://ajstarks.org:1958/{thing}/</text>
 		<image xp="20" yp="80" width="256" height="256" color="gray" name="clock.png" sp="1.6" caption="clock"/>
 		<image xp="40" yp="80" width="256" height="256" color="gray" name="funnel.png" sp="1.6"  caption="funnel"/>
 		<image xp="60" yp="80" width="256" height="256" color="gray" name="rotext.png" sp="1.6"  caption="rotext"/>
@@ -322,27 +322,8 @@
 	
 	<slide bg="white" fg="rgb(50,50,50)">
 		<text xp="95" yp="5" sp="2.5" align="right">Anatomy of a Deck</text>
-		<list  xp="16" yp="90" sp="1.4" font="mono">
-		  <li>&lt;deck&gt;</li>
-		  <li>  &lt;canvas width="1024" height="768" /&gt;</li>
-		  <li>  &lt;slide bg="white" fg="black"&gt;</li>
-		  <li>      &lt;image xp="70" yp="60" width="640" height="480" name="follow.png" sp="1" caption="Dreams"/&gt;</li>
-		  <li>      &lt;text  xp="20" yp="80" sp="5" link="http://goo.gl/Wm05Ex"&gt;Deck elements&lt;/text&gt;</li>
-		  <li>      &lt;list  xp="20" yp="70" sp="3" type="bullet"&gt;</li>
-		  <li>         &lt;li&gt;text, list, image&lt;/li&gt;</li>
-		  <li>         &lt;li&gt;line, rect, ellipse&lt;/li&gt;</li>
-		  <li>         &lt;li&gt;arc, curve, polygon&lt;/li&gt;</li>
-		  <li>      &lt;/list&gt;</li>
-		  <li>      &lt;line    xp1="20" yp1="10" xp2="30" yp2="10"/&gt;</li>
-		  <li>      &lt;rect    xp="35"  yp="10" wp="4" hr="75" color="rgb(127,0,0)"/&gt;</li>
-		  <li>      &lt;ellipse xp="45"  yp="10" wp="4" hr="75" color="rgb(0,127,0)"/&gt;</li>
-		  <li>      &lt;arc     xp="55"  yp="10" wp="4" hp="3" a1="0" a2="180" color="rgb(0,0,127)"/&gt;</li>
-		  <li>      &lt;curve   xp1="60" yp1="10" xp2="75" yp2="20" xp3="70" yp3="10" /&gt;</li>
-		  <li>      &lt;polygon xc=75 75 80" yc="8 12 10" color="rgb(0,0,127)"/&gt;</li>
-		  <li>  &lt;/slide&gt;</li>
-		  <li>&lt;/deck&gt;</li>
-		</list>
-		<list xp="3" yp="90" sp="1.4" color="rgb(127,0,0)" >
+		<text xp="15" yp="90" sp="1.4" lp="1.8" font="mono" file="sample-deck.xml"/>
+		<list xp="3" yp="90" sp="1.4" lp="1.8" color="rgb(127,0,0)" >
 		  <li>Start the deck</li>
 		  <li>Set the canvas size</li>
 		  <li>Begin a slide</li>
@@ -819,8 +800,7 @@ Gate C31C
 the rain is over and gone;
 The flowers appear on the earth;
 the time for the singing of birds is come, 
-and the voice of the turtle is heard in our land.
-	  </text>
+and the voice of the turtle is heard in our land.</text>
 	  <text xp="50" yp="10" sp="2" align="center" color="rgb(127,127,127)">Song of Solomon 2:11-12</text>
 	</slide>
 
